@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-git add Media/*.pdf
+git add Library/*.pdf
 git commit -a -m "Update"
 git push
