@@ -2,12 +2,42 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-01-06 14:03:26 -0800 
+%% Created for Geoff Hulette at 2010-01-13 16:27:10 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@inproceedings{ravitch09bindings,
+	Abstract = {High-level languages are growing in popularity. However, decades of C software development have produced large libraries of fast, time-tested, meritorious code that are impractical to recreate from scratch. Cross-language bindings can expose low-level C code to high-level languages. Unfortunately, writing bindings by hand is tedious and error-prone, while mainstream binding generators require extensive manual annotation or fail to offer the language features that users of modern languages have come to expect.
+
+We present an improved binding-generation strategy based on static analysis of unannotated library source code. We characterize three high-level idioms that are not uniquely expressible in C's low-level type system: array parameters, resource managers, and multiple return values. We describe a suite of interprocedural analyses that recover this high-level information, and we show how the results can be used in a binding generator for the Python programming language. In experiments with four large C libraries, we find that our approach avoids the mistakes characteristic of hand-written bindings while offering a level of Python integration unmatched by prior automated approaches. Among the thousands of functions in the public interfaces of these libraries, roughly 40% exhibit the behaviors detected by our static analyses.},
+	Address = {Dublin, Ireland},
+	Author = {Tristan Ravitch and Steve Jackson and Eric Aderhold and Ben Liblit},
+	Booktitle = {{Proceedings of the ACM SIGPLAN 2009 Conference on Programming Language Design and Implementation}},
+	Date-Added = {2010-01-13 10:31:05 -0800},
+	Date-Modified = {2010-01-13 10:32:32 -0800},
+	Keywords = {generator,bindings},
+	Month = jun,
+	Organization = {{ACM}},
+	Pages = {15--20},
+	Title = {Automatic Generation of Library Bindings Using Static Analysis},
+	Year = 2009,
+	Bdsk-Url-1 = {http://pages.cs.wisc.edu/~liblit/pldi-2009-b/},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRVyYXZpdGNoMDliaW5kaW5ncy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATpVkx3NRmwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHc8IbAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyYXZpdGNoMDliaW5kaW5ncy5wZGYADgAsABUAcgBhAHYAaQB0AGMAaAAwADkAYgBpAG4AZABpAG4AZwBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3Jhdml0Y2gwOWJpbmRpbmdzLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvcmF2aXRjaDA5YmluZGluZ3MucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5}}
+
+@book{panda07ejb,
+	Abstract = {An EJB 3 tutorial.},
+	Address = {Greenwich, CT, USA},
+	Author = {Panda, Debu and Rahman, Reza and Lane, Derek},
+	Date-Added = {2010-01-11 17:16:56 -0800},
+	Date-Modified = {2010-01-11 17:17:42 -0800},
+	Isbn = {1932394931},
+	Publisher = {Manning Publications Co.},
+	Title = {{EJB 3 in Action}},
+	Year = {2007},
+	Bdsk-Url-1 = {http://portal.acm.org/citation.cfm?id=1202848}}
 
 @misc{folk2003attributes,
 	Author = {Folk, M. and Barkstrom, B.R.},
@@ -3304,7 +3334,7 @@ Questions:  What is multi-dataflow execution and why is that helpful?  Is Kepler
 		<key>group name</key>
 		<string>Area Exam</string>
 		<key>keys</key>
-		<string>chakravarty03haskellffi,pierce02reconstruct,coulouris94sunrpc,smolinski99interop,hopkins00component,slee07thrift,wilson94suif,abadi89dynamic,kaplan01exu,rossberg06dynamic,tay90rpc,reid00fortran,milner78atheory,spec03xmlrpc,barrett96polyspin,birrell84rpc,folk2003attributes,furr06jni,lattner04llvm,swamy09coercions,reppy06ffi,goodale03cactus,liao06openuh,reid08fortran,folk2000introduction,bracha92jigsaw,murphy08open64,macqueen84modules,furr08check,hamilton03clr,fisher01interop,jones97greencard,ms06cli,demichiel06ejb,trifonov99safe,batory97genvoca,pierce02subtyping,curbera02soap,nierstrasz95composition,beazley96swig,visser01survey,blume01nlffi,matthews09semantics,schordan03rose,kohn01babel,visser98core,janssen94ilu,mathworksmexfiles,waldo98jrmi,grechanik04polylingual,armstrong99common,pierce02rectypes,sousa99formal,rfc1832,liang99jni,breazu91coercion,kaplan98idl,quinlan99rose,reid07fortran,benton99interlang,baader98term,lindlan98pdt,vinoski97corba,flanagan06hybrid,goodale07expressing,gosling00java,hirzel07jeannie,cardelli88asemantics,rasmussen01chasm,pierce02subtypingtheory,spec00soap11,huelsbergen96mlffi</string>
+		<string>chakravarty03haskellffi,pierce02reconstruct,coulouris94sunrpc,smolinski99interop,hopkins00component,slee07thrift,wilson94suif,abadi89dynamic,kaplan01exu,rossberg06dynamic,tay90rpc,reid00fortran,milner78atheory,spec03xmlrpc,barrett96polyspin,birrell84rpc,folk2003attributes,furr06jni,lattner04llvm,swamy09coercions,reppy06ffi,goodale03cactus,liao06openuh,reid08fortran,panda07ejb,folk2000introduction,bracha92jigsaw,murphy08open64,ravitch09bindings,macqueen84modules,furr08check,hamilton03clr,fisher01interop,jones97greencard,ms06cli,demichiel06ejb,trifonov99safe,batory97genvoca,pierce02subtyping,curbera02soap,nierstrasz95composition,beazley96swig,visser01survey,blume01nlffi,matthews09semantics,schordan03rose,kohn01babel,visser98core,janssen94ilu,mathworksmexfiles,waldo98jrmi,grechanik04polylingual,armstrong99common,pierce02rectypes,sousa99formal,rfc1832,liang99jni,breazu91coercion,kaplan98idl,quinlan99rose,reid07fortran,benton99interlang,baader98term,lindlan98pdt,vinoski97corba,flanagan06hybrid,goodale07expressing,gosling00java,hirzel07jeannie,cardelli88asemantics,rasmussen01chasm,pierce02subtypingtheory,spec00soap11,huelsbergen96mlffi</string>
 	</dict>
 	<dict>
 		<key>group name</key>
