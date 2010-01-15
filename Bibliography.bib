@@ -2,12 +2,24 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-01-13 16:27:10 -0800 
+%% Created for Geoff Hulette at 2010-01-14 20:25:49 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@inproceedings{mitchell91subtyping,
+	Abstract = {We describe a general module language integrating abstract data types, specifications and object-oriented concepts. The framework is based on the Standard ML module system, with three main extensions: subtyping, a form of object derived from ML structures, and inheritance primitives. The language aims at supporting a range of programming styles, including mixtures of object-oriented programming and programs built around specified algebraic or higher-order abstract data types. We separate specification from implementation, and provide independent inheritance mechanisms for each. In order to support binary operations on objects within this framework, we introduce "internal interfaces" which govern the way that function components of one structure may access components of another. The language design has been tested by writing a number of program examples; an implementation is under development in the context of a larger project.},
+	Author = {John Mitchell and Sigurd Meldal and Neel Madhav},
+	Booktitle = {Proc. 18th ACM Symp. on Principles of Programming Languages},
+	Date-Added = {2010-01-14 16:52:05 -0800},
+	Date-Modified = {2010-01-14 16:53:26 -0800},
+	Keywords = {subtypes},
+	Pages = {270--278},
+	Title = {An extension of {Standard ML} modules with subtyping and inheritance},
+	Year = {1991},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdQAAAAAAdQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRdtaXRjaGVsbDkxc3VidHlwaW5nLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUKJux3T8GAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHdWyYAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBSTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTptaXRjaGVsbDkxc3VidHlwaW5nLnBkZgAOADAAFwBtAGkAdABjAGgAZQBsAGwAOQAxAHMAdQBiAHQAeQBwAGkAbgBnAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBFVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L21pdGNoZWxsOTFzdWJ0eXBpbmcucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAfTGlicmFyeS9taXRjaGVsbDkxc3VidHlwaW5nLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJ4AnoCfwKIApMClwKlAqwCtQLXAtwC3wLsAvEAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADAw==}}
 
 @inproceedings{ravitch09bindings,
 	Abstract = {High-level languages are growing in popularity. However, decades of C software development have produced large libraries of fast, time-tested, meritorious code that are impractical to recreate from scratch. Cross-language bindings can expose low-level C code to high-level languages. Unfortunately, writing bindings by hand is tedious and error-prone, while mainstream binding generators require extensive manual annotation or fail to offer the language features that users of modern languages have come to expect.
@@ -24,8 +36,8 @@ We present an improved binding-generation strategy based on static analysis of u
 	Pages = {15--20},
 	Title = {Automatic Generation of Library Bindings Using Static Analysis},
 	Year = 2009,
-	Bdsk-Url-1 = {http://pages.cs.wisc.edu/~liblit/pldi-2009-b/},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRVyYXZpdGNoMDliaW5kaW5ncy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATpVkx3NRmwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHc8IbAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyYXZpdGNoMDliaW5kaW5ncy5wZGYADgAsABUAcgBhAHYAaQB0AGMAaAAwADkAYgBpAG4AZABpAG4AZwBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3Jhdml0Y2gwOWJpbmRpbmdzLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvcmF2aXRjaDA5YmluZGluZ3MucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRVyYXZpdGNoMDliaW5kaW5ncy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATpVkx3NRmwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHc8IbAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyYXZpdGNoMDliaW5kaW5ncy5wZGYADgAsABUAcgBhAHYAaQB0AGMAaAAwADkAYgBpAG4AZABpAG4AZwBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3Jhdml0Y2gwOWJpbmRpbmdzLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvcmF2aXRjaDA5YmluZGluZ3MucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5},
+	Bdsk-Url-1 = {http://pages.cs.wisc.edu/~liblit/pldi-2009-b/}}
 
 @book{panda07ejb,
 	Abstract = {An EJB 3 tutorial.},
