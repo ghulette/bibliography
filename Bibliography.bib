@@ -2,12 +2,43 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-01-26 17:30:54 -0800 
+%% Created for Geoff Hulette at 2010-01-27 17:24:12 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@inproceedings{kelsey95cps,
+	Abstract = {We define syntactic transformations that convert continuation passing style (CPS) programs into static single assignment form (SSA) and vice versa. Some CPS programs cannot be converted to SSA, but these are not produced by the usual CPS transformation. The CPS!SSA transformation is especially helpful for compiling functional programs. Many optimizations that normally require flow analysis can be performed directly on functional CPS programs by viewing them as SSA programs. We also present a simple program transformation that merges CPS procedures together and by doing so greatly increases the scope of the SSA flow information. This transformation is useful for analyzing loops expressed as recursive procedures. },
+	Author = {Richard Kelsey},
+	Booktitle = {ACM SIGPLAN Notices},
+	Date-Added = {2010-01-27 17:23:23 -0800},
+	Date-Modified = {2010-01-27 17:24:01 -0800},
+	Keywords = {functional,ssa,cps},
+	Pages = {13--22},
+	Publisher = {ACM Press},
+	Title = {A Correspondence between Continuation Passing Style and Static Single Assignment Form},
+	Year = {1995},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbQAAAAAAbQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhQ9rZWxzZXk5NWNwcy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYLuDx4YmXgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHhpbeAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBKTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTprZWxzZXk5NWNwcy5wZGYADgAgAA8AawBlAGwAcwBlAHkAOQA1AGMAcABzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA9VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2tlbHNleTk1Y3BzLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QF0xpYnJhcnkva2Vsc2V5OTVjcHMucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAlgCWgJfAmgCcwJ3AoUCjAKVAq8CtAK3AsQCyQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALb}}
+
+@article{spector82remote,
+	Abstract = {A communication model is described that can serve as a basis for a highly efficient communication subsystem for local networks. The model contains a taxonomy of communication instructions that can be implemented efficiently and can be a good basis for interprocessor communication. These communication instructions, called remote references, cause an operation to be performed by a remote process and, optionally, cause a value to be returned. This paper also presents implementation considerations for a communication system based upon the model and describes an experimental communication subsystem that provides one class of remote references. These remote references take about 150 microseconds or 50 average instruction times to perform on Xerox Alto computers connected by a 2.94 megabit Ethernet.},
+	Address = {New York, NY, USA},
+	Author = {Spector, Alfred Z.},
+	Date-Added = {2010-01-26 17:38:16 -0800},
+	Date-Modified = {2010-01-26 17:38:37 -0800},
+	Doi = {http://doi.acm.org/10.1145/358468.358478},
+	Issn = {0001-0782},
+	Journal = {Commun. ACM},
+	Number = {4},
+	Pages = {246--260},
+	Publisher = {ACM},
+	Title = {Performing remote operations efficiently on a local computer network},
+	Volume = {25},
+	Year = {1982},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/358468.358478},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcQAAAAAAcQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRNzcGVjdG9yODJyZW1vdGUucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX33Bx4TY+gAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHhUl6AAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBOTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpzcGVjdG9yODJyZW1vdGUucGRmAA4AKAATAHMAcABlAGMAdABvAHIAOAAyAHIAZQBtAG8AdABlAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBBVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3NwZWN0b3I4MnJlbW90ZS5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBtMaWJyYXJ5L3NwZWN0b3I4MnJlbW90ZS5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACaAJqAm8CeAKDAocClQKcAqUCwwLIAssC2ALdAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAu8=}}
 
 @article{notkin88interconnect,
 	Abstract = {A software structure created by the Heterogeneous Computer Systems (HCS) Project at the University of Washington was designed to address the problems of heterogeneity that typically arise in research computing environments.},
@@ -25,8 +56,8 @@
 	Title = {Interconnecting heterogeneous computer systems},
 	Volume = {31},
 	Year = {1988},
-	Bdsk-Url-1 = {http://doi.acm.org/10.1145/42392.42396},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAZwAAAAAAZwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhQk0MjM5Ni5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX3hhx4TW+wAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHhUd7AAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBETWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTo0MjM5Ni5wZGYADgAUAAkANAAyADMAOQA2AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA3VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5LzQyMzk2LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QEUxpYnJhcnkvNDIzOTYucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAkACQgJHAlACWwJfAm0CdAJ9ApEClgKZAqYCqwAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAK9}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAZwAAAAAAZwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhQk0MjM5Ni5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX3hhx4TW+wAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHhUd7AAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBETWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTo0MjM5Ni5wZGYADgAUAAkANAAyADMAOQA2AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA3VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5LzQyMzk2LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QEUxpYnJhcnkvNDIzOTYucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAkACQgJHAlACWwJfAm0CdAJ9ApEClgKZAqYCqwAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAK9},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/42392.42396}}
 
 @article{satya90parallel,
 	Abstract = {The evolution of MultiRPC, a parallel remote procedure call mechanism implemented in Unix is described. Parallelism is obtained from the concurrency of processing on servers and from the overlapping of retransmissions and timeouts. Each of the parallel calls retains the semantics and functionality of the standard remote procedure calls. The underlying communication medium need not support multicast or broadcast transmissions. An analytic model of the system is derived and validated. The experimental observations demonstrate the feasibility of using MultiRPC to contact up to 100 servers in parallel.},
@@ -43,8 +74,8 @@
 	Title = {Parallel Communication in a Large Distributed Environment},
 	Volume = {39},
 	Year = {1990},
-	Bdsk-Url-1 = {http://doi.ieeecomputersociety.org/10.1109/12.48864},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcQAAAAAAcQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRNzYXR5YTkwcGFyYWxsZWwucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX3aEx4TWFQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHhUaVAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBOTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpzYXR5YTkwcGFyYWxsZWwucGRmAA4AKAATAHMAYQB0AHkAYQA5ADAAcABhAHIAYQBsAGwAZQBsAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBBVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3NhdHlhOTBwYXJhbGxlbC5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBtMaWJyYXJ5L3NhdHlhOTBwYXJhbGxlbC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACaAJqAm8CeAKDAocClQKcAqUCwwLIAssC2ALdAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAu8=}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcQAAAAAAcQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRNzYXR5YTkwcGFyYWxsZWwucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX3aEx4TWFQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHhUaVAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBOTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpzYXR5YTkwcGFyYWxsZWwucGRmAA4AKAATAHMAYQB0AHkAYQA5ADAAcABhAHIAYQBsAGwAZQBsAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBBVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3NhdHlhOTBwYXJhbGxlbC5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBtMaWJyYXJ5L3NhdHlhOTBwYXJhbGxlbC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACaAJqAm8CeAKDAocClQKcAqUCwwLIAssC2ALdAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAu8=},
+	Bdsk-Url-1 = {http://doi.ieeecomputersociety.org/10.1109/12.48864}}
 
 @inproceedings{jeffery98mcorba,
 	Abstract = {MCORBA is a binding to the CORBA distributed object framework for the purely declarative logic/functional language Mercury. The binding preserves the referential transparency of the language, and has several advantages over similar bindings for other strongly typed declarative languages. As far as we know, it is the first such binding to be bidirectional; it allows a Mercury program both to operate upon CORBA components and to provide services to other CORBA components. Whereas the Haskell binding for COM maps COM interfaces onto Haskell types, MCORBA maps CORBA interfaces onto Mercury type classes. Our approach simplifies the mapping, makes the implementation of CORBA's interface inheritance straightforward, and makes it trivial for programmers to provide several different implementations of the same interface. It uses existential types to model the operation of asking CORBA for an object that satisfies a given interface but whose representation is unknown.},
