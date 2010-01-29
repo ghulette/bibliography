@@ -2,12 +2,42 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-01-27 17:24:12 -0800 
+%% Created for Geoff Hulette at 2010-01-28 15:38:41 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@inproceedings{dagand09opis,
+	Abstract = {The importance of distributed systems is growing as computing devices become ubiquitous and bandwidth becomes plentiful. Concurrency and distribution pose algorithmic and implementation challenges in developing reliable distributed systems, making the field an excellent testbed for evaluating programming language and verification paradigms.
+
+Recently, several specialized domain-specific languages and extensions of memory-unsafe languages have been proposed to aid distributed system development. In this paper we propose an alternative to these approaches, arguing that modern, higher-order, strongly typed, memory safe languages provide an excellent vehicle for developing and debugging distributed systems.
+
+We present Opis, a functional-reactive approach for developing distributed systems in Objective Caml. In Opis, a protocol description consists of a reactive function (called event function) describing the behavior of a distributed system node. The event functions in Opis are built from pure functions as building blocks, composed using the Arrow combinators. This facilitates reasoning about event functions both informally and using interactive provers. For example, this approach leads to simple termination arguments.
+
+Given a protocol description, a developer can use higher-order library functions of Opis to:
+
+* deploy the distributed system,
+* run the distributed system in a network simulator with full-replay capabilities,
+* apply explicit-state model checking to the distributed system and detect any undesirable behaviors, and
+* do performance analysis on the system.
+
+We describe the design and implementation of Opis, and present our experience in using Opis to develop peer-to-peer overlay protocols including the Chord distributed hash table and the Cyclon random gossip protocol. We have found that using Opis results in high programmer productivity and leads to concise and easily composable protocol descriptions. Moreover, Opis tools were effective in helping identify and eliminate correctness and performance problems during distributed system development.},
+	Address = {New York, NY, USA},
+	Author = {Dagand, Pierre-\'{E}variste and Kosti\'{c}, Dejan and Kuncak, Viktor},
+	Booktitle = {TLDI '09: Proceedings of the 4th international workshop on Types in language design and implementation},
+	Date-Added = {2010-01-28 15:36:46 -0800},
+	Date-Modified = {2010-01-28 15:37:43 -0800},
+	Doi = {http://doi.acm.org/10.1145/1481861.1481870},
+	Isbn = {978-1-60558-420-1},
+	Location = {Savannah, GA, USA},
+	Pages = {65--78},
+	Publisher = {ACM},
+	Title = {Opis: reliable distributed systems in OCaml},
+	Year = {2009},
+	Bdsk-Url-1 = {http://perso.eleves.bretagne.ens-cachan.fr/~dagand/opis/},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbgAAAAAAbgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRBkYWdhbmQwOW9waXMucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYY9px4defwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHh87/AAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBLTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpkYWdhbmQwOW9waXMucGRmAAAOACIAEABkAGEAZwBhAG4AZAAwADkAbwBwAGkAcwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAPlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9kYWdhbmQwOW9waXMucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBhMaWJyYXJ5L2RhZ2FuZDA5b3Bpcy5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACXAJeAmMCbAJ3AnsCiQKQApkCtAK5ArwCyQLOAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuA=}}
 
 @inproceedings{kelsey95cps,
 	Abstract = {We define syntactic transformations that convert continuation passing style (CPS) programs into static single assignment form (SSA) and vice versa. Some CPS programs cannot be converted to SSA, but these are not produced by the usual CPS transformation. The CPS!SSA transformation is especially helpful for compiling functional programs. Many optimizations that normally require flow analysis can be performed directly on functional CPS programs by viewing them as SSA programs. We also present a simple program transformation that merges CPS procedures together and by doing so greatly increases the scope of the SSA flow information. This transformation is useful for analyzing loops expressed as recursive procedures. },
