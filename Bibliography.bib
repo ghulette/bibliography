@@ -2,12 +2,29 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-01-29 14:45:29 -0800 
+%% Created for Geoff Hulette at 2010-02-02 19:16:12 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@inproceedings{zaremski93matching,
+	Abstract = {Software reuse is only effective if it is easier to locate (and appropriately modify) a reusable component than to write it from scratch. We present signature matching as a method for achieving this goal by using signature information easily derived from the component. We consider two kinds of software components, functions and modules, and hence two kinds of matching, function mathcing and module matching. The signature of a function is simply its type; the signature of a module is a multiset of user-defined types and a multiset of function signatures. For both functions and modules, we consider not just exact match, but also various flavors of relaxed match. We briefly describe an experimental facility written in Standard ML for performing signature matching over a library of ML functions. },
+	Address = {New York, NY, USA},
+	Author = {Zaremski, Amy Moormann and Wing, Jeannette M.},
+	Booktitle = {SIGSOFT '93: Proceedings of the 1st ACM SIGSOFT symposium on Foundations of software engineering},
+	Date-Added = {2010-02-02 19:13:35 -0800},
+	Date-Modified = {2010-02-02 19:14:06 -0800},
+	Doi = {http://doi.acm.org/10.1145/256428.167077},
+	Isbn = {0-89791-625-5},
+	Location = {Los Angeles, California, United States},
+	Pages = {182--190},
+	Publisher = {ACM},
+	Title = {Signature matching: a key to reuse},
+	Year = {1993},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/256428.167077},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdAAAAAAAdAAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRZ6YXJlbXNraTkzbWF0Y2hpbmcucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY+Y+x44ptwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHjpo3AAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBRTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTp6YXJlbXNraTkzbWF0Y2hpbmcucGRmAAAOAC4AFgB6AGEAcgBlAG0AcwBrAGkAOQAzAG0AYQB0AGMAaABpAG4AZwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARFVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS96YXJlbXNraTkzbWF0Y2hpbmcucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEB5MaWJyYXJ5L3phcmVtc2tpOTNtYXRjaGluZy5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACdAJ2AnsChAKPApMCoQKoArEC0gLXAtoC5wLsAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAv4=}}
 
 @article{hayes87mixed,
 	Abstract = {An approach for facilitating mixed language programming in distributed systems is presented. It is based on adding a generic remote procedure call facility to each language, and the use of a type system to describe procedural interfaces, as well as data to be transferred between procedures. This type scheme also specifies a machine-independent representation for all data. By defining standard mappings for each programming language, the data conversions required for cross-langauge calls may be performed, automatically in most cases, by active agents that provide the interface between program components written in different languages. When necessary, explicit control of the conversation is possible. A prototype implementation of a system based on this approach has been constructed on a collection of machines running Berkeley UNIX.},
@@ -23,8 +40,8 @@
 	Title = {Facilitating Mixed Language Programming in Distrbuted Systems},
 	Volume = {13},
 	Year = {1987},
-	Bdsk-Url-1 = {http://doi.ieeecomputersociety.org/10.1109/TSE.1987.232879},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbgAAAAAAbgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRBoYXllczg3bWl4ZWQucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYkkTx4ikogAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHiRUiAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBLTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpoYXllczg3bWl4ZWQucGRmAAAOACIAEABoAGEAeQBlAHMAOAA3AG0AaQB4AGUAZAAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAPlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9oYXllczg3bWl4ZWQucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBhMaWJyYXJ5L2hheWVzODdtaXhlZC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACXAJeAmMCbAJ3AnsCiQKQApkCtAK5ArwCyQLOAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuA=}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbgAAAAAAbgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhRBoYXllczg3bWl4ZWQucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYkkTx4ikogAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHiRUiAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBLTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpoYXllczg3bWl4ZWQucGRmAAAOACIAEABoAGEAeQBlAHMAOAA3AG0AaQB4AGUAZAAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAPlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9oYXllczg3bWl4ZWQucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBhMaWJyYXJ5L2hheWVzODdtaXhlZC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACXAJeAmMCbAJ3AnsCiQKQApkCtAK5ArwCyQLOAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuA=},
+	Bdsk-Url-1 = {http://doi.ieeecomputersociety.org/10.1109/TSE.1987.232879}}
 
 @inproceedings{dagand09opis,
 	Abstract = {The importance of distributed systems is growing as computing devices become ubiquitous and bandwidth becomes plentiful. Concurrency and distribution pose algorithmic and implementation challenges in developing reliable distributed systems, making the field an excellent testbed for evaluating programming language and verification paradigms.
