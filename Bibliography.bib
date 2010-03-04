@@ -2,12 +2,31 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-02-23 11:39:44 -0800 
+%% Created for Geoff Hulette at 2010-03-01 11:34:43 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@article{furr05ffi,
+	Abstract = {We present a multi-lingual type inference system for checking type safety across a foreign function interface. The goal of our system is to prevent foreign function calls from introducing type and memory safety violations into an otherwise safe language. Our system targets OCaml's FFI to C, which is relatively lightweight and illustrates some interesting challenges in multi-lingual type inference. The type language in our system embeds OCaml types in C types and vice-versa, which allows us to track type information accurately even through the foreign language, where the original types are lost. Our system uses representational types that can model multiple OCaml types, because C programs can observe that many OCaml types have the same physical representation. Furthermore, because C has a low-level view of OCaml data, our inference system includes a dataflow analysis to track memory offsets and tag information. Finally, our type system includes garbage collection information to ensure that pointers from the FFI to the OCaml heap are tracked properly. We have implemented our inference system and applied it to a small set of benchmarks. Our results show that programmers do misuse these interfaces, and our implementation has found several bugs and questionable coding practices in our benchmarks.},
+	Address = {New York, NY, USA},
+	Annote = {This is the shorter conference version.},
+	Author = {Furr, Michael and Foster, Jeffrey S.},
+	Date-Added = {2010-03-01 11:31:57 -0800},
+	Date-Modified = {2010-03-01 11:33:29 -0800},
+	Doi = {10.1145/1064978.1065019},
+	Issn = {0362-1340},
+	Journal = {SIGPLAN Notices},
+	Number = {6},
+	Pages = {62--72},
+	Publisher = {ACM},
+	Title = {Checking type safety of foreign function calls},
+	Volume = {40},
+	Year = {2005},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/1064978.1065019},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAawAAAAAAawAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMZqmo5IKwAAAEdZhQ1mdXJyMDVmZmkucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbILix7FVyQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADGavz+AAAAEQAIAADHscZJAAAAAQAUAEdZhQBHVtwACMDMAAjAtQAAeYkAAgBITWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpmdXJyMDVmZmkucGRmAA4AHAANAGYAdQByAHIAMAA1AGYAZgBpAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA7VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2Z1cnIwNWZmaS5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBVMaWJyYXJ5L2Z1cnIwNWZmaS5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACUAJSAlcCYAJrAm8CfQKEAo0CpQKqAq0CugK/AAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAtE=}}
 
 @inproceedings{filinski10monads,
 	Abstract = {In functional programming, monadic characterizations of computational effects are normally understood denotationally: they describe how an effectful program can be systematically expanded or translated into a larger, pure program, which can then be evaluated according to an effect-free semantics. Any effect-specific operations expressible in the monad are also given purely functional definitions, but these definitions are only directly executable in the context of an already translated program. This approach thus takes an inherently Church-style view of effects: the nominal meaning of every effectful term in the program depends crucially on its type.
@@ -1263,9 +1282,10 @@ Beyond giving simple expressive models, our studies have uncovered several inter
 @article{furr08check,
 	Abstract = {Foreign function interfaces (FFIs) allow components in different languages to communicate directly with each other. While FFIs are useful, they often require writing tricky low-level code and include little or no static safety checking, thus providing a rich source of hard-to-find programming errors. In this article, we study the problem of enforcing type safety across the OCaml-to-C FFI and the Java Native Interface (JNI). We present O-Saffire and J-Saffire, a pair of multilingual type inference systems that ensure C code that uses these FFIs accesses high-level data safely. Our inference systems use representational types to model C's low-level view of OCaml and Java values, and singleton types to track integers, strings, memory offsets, and type tags through C. J-Saffire, our Java system, uses a polymorphic flow-insensitive, unification-based analysis. Polymorphism is important because it allows us to precisely model user-defined wrapper functions and the more than 200 JNI functions. O-Saffire, our OCaml system, uses a monomorphic flow-sensitive analysis because, while polymorphism is much less important for the OCaml FFI flow-sensitivity is critical to track conditional branches, which are used when pattern matching OCaml data in C. O-Saffire also tracks garbage collection information to ensure that local C pointers to the OCaml heap are registered properly, which is not necessary for the JNI. We have applied O-Saffire and J-Saffire to a set of benchmarks and found many bugs and questionable coding practices. These results suggest that static checking of FFIs can be a valuable tool in writing correct multilingual software.},
 	Address = {New York, NY, USA},
+	Annote = {This is the longer journal version, which also includes a discussion of J-Saffire.},
 	Author = {Michael Furr and Jeffrey S. Foster},
 	Date-Added = {2009-06-15 16:01:53 -0700},
-	Date-Modified = {2009-06-15 16:03:02 -0700},
+	Date-Modified = {2010-03-01 11:32:59 -0800},
 	Journal = {ACM Transactions on Programming Languages and Systems (TOPLAS)},
 	Keywords = {types,ffi},
 	Month = {July},
