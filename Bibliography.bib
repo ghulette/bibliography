@@ -2,12 +2,31 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-03-18 17:17:47 -0700 
+%% Created for Geoff Hulette at 2010-03-21 22:43:47 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@misc{comobjects,
+	Abstract = {Microsoft COM (Component Object Model) technology in the Microsoft Windows-family of Operating Systems enables software components to communicate. COM is used by developers to create re-usable software components, link components together to build applications, and take advantage of Windows services. COM objects can be created with a variety of programming languages. Object-oriented languages, such as C++, provide programming mechanisms that simplify the implementation of COM objects. The family of COM technologies includes COM+, Distributed COM (DCOM) and ActiveX{\textregistered} Controls.
+
+Microsoft provides COM interfaces for many Windows application programming interfaces such as Direct Show, Media Foundation, Packaging API, Windows Animation Manager, Windows Portable Devices, and Microsoft Active Directory (AD).
+
+COM is used in applications such as the Microsoft Office Family of products. For example COM OLE technology allows Word documents to dynamically link to data in Excel spreadsheets and COM Automation allows users to build scripts in their applications to perform repetitive tasks or control one application from another.},
+	Date-Added = {2010-03-21 22:32:23 -0700},
+	Date-Modified = {2010-03-21 22:33:18 -0700},
+	Howpublished = {\url{http://www.microsoft.com/com/default.mspx}},
+	Title = {{COM: Component Object Model Technologies}},
+	Bdsk-Url-1 = {http://www.microsoft.com/com/default.mspx}}
+
+@misc{dicom,
+	Date-Added = {2010-03-21 14:48:08 -0700},
+	Date-Modified = {2010-03-21 15:47:15 -0700},
+	Howpublished = {\url{http://medical.nema.org/}},
+	Title = {The {DICOM} Standard},
+	Bdsk-Url-1 = {http://medical.nema.org/}}
 
 @book{appel98mlcompiler,
 	Abstract = {Over the past decade, there have been several shifts in the way compilers are built. New kinds of programming languages are being used: object-oriented languages with dynamic methods, functional languages with nested scope and first-class function closures; and many of these languages require garbage collection. New machines have large register sets and a high penalty for memory access, and can often run much faster with compiler assistance in scheduling instructions and managing instructions and data for cache locality.
@@ -21,11 +40,11 @@ This book is intended as a textbook for a one- or two-semester course in compile
 	Year = {1998},
 	Bdsk-Url-1 = {http://www.cs.princeton.edu/~appel/modern/ml/}}
 
-@webpage{w3c03png,
+@misc{w3c03png,
 	Date-Added = {2010-03-16 12:35:08 -0700},
-	Date-Modified = {2010-03-16 12:37:11 -0700},
-	Title = {Portable Network Graphics (PNG) Specification (Second Edition)},
-	Url = {http://www.w3.org/TR/PNG/},
+	Date-Modified = {2010-03-21 15:50:38 -0700},
+	Howpublished = {\url{http://www.w3.org/TR/PNG/}},
+	Title = {{Portable Network Graphics (PNG) Specification, Second Edition}},
 	Bdsk-Url-1 = {http://www.w3.org/TR/PNG/}}
 
 @incollection{miller04llcs,
@@ -425,22 +444,22 @@ As of result of the work presented in this paper, FindBugs now reports 4 of the 
 	Abstract = {At some point of time many Python developers -- at least in computational science -- will face the situation that they want to interface some natively compiled library from Python. For binding native code to Python by now a larger variety of tools and technologies are available. This paper focuses on wrapping shared C libraries, using Python's default Ctypes. Particularly tools to ease the process (by using code generation) and some best practises will be stressed. The paper will try to tell a ``step--by--step'' story of the wrapping and development process, that should be transferable to similar problems.},
 	Author = {Guy K. Kloss},
 	Date-Added = {2010-01-15 18:23:25 -0800},
-	Date-Modified = {2010-01-15 18:24:40 -0800},
+	Date-Modified = {2010-03-21 15:57:12 -0700},
 	Journal = {The Python Papers},
 	Keywords = {python,ffi},
 	Number = {3},
-	Title = {Automatic C Library Wrapping -- Ctypes from the Trenches},
+	Title = {Automatic {C} Library Wrapping -- {Ctypes} from the Trenches},
 	Volume = {3},
 	Year = {2008},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbwAAAAAAbwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BFrbG9zczA4Y3R5cGVzLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT5sx5GcQwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzDAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBMTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTprbG9zczA4Y3R5cGVzLnBkZgAOACQAEQBrAGwAbwBzAHMAMAA4AGMAdAB5AHAAZQBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA/VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2tsb3NzMDhjdHlwZXMucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAZTGlicmFyeS9rbG9zczA4Y3R5cGVzLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJgAmICZwJwAnsCfwKNApQCnQK5Ar4CwQLOAtMAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC5Q==},
 	Bdsk-Url-1 = {http://ojs.pythonpapers.org/index.php/tpp/article/viewArticle/71}}
 
-@url{pythonctypes,
+@misc{pythonctypes,
 	Date-Added = {2010-01-15 18:16:11 -0800},
-	Date-Modified = {2010-03-10 15:20:51 -0800},
+	Date-Modified = {2010-03-21 15:50:17 -0700},
+	Howpublished = {\url{http://docs.python.org/library/ctypes.html}},
 	Keywords = {python,ffi},
-	Title = {Python v2.6.4 documentation: ctypes - A foreign function library for Python},
-	Url = {http://docs.python.org/library/ctypes.html},
+	Title = {{Python v2.6.4 documentation: ctypes -- A foreign function library for Python}},
 	Bdsk-Url-1 = {http://docs.python.org/library/ctypes.html}}
 
 @article{batory92hierarchical,
@@ -526,14 +545,14 @@ We present an improved binding-generation strategy based on static analysis of u
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdgAAAAAAdgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+Bhmb2xrMjAwMGludHJvZHVjdGlvbi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT45x5GcQQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzBAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBTTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpmb2xrMjAwMGludHJvZHVjdGlvbi5wZGYAAA4AMgAYAGYAbwBsAGsAMgAwADAAMABpAG4AdAByAG8AZAB1AGMAdABpAG8AbgAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9mb2xrMjAwMGludHJvZHVjdGlvbi5wZGYAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QIExpYnJhcnkvZm9sazIwMDBpbnRyb2R1Y3Rpb24ucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnwCfgKDAowClwKbAqkCsAK5AtwC4QLkAvEC9gAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMI},
 	Bdsk-Url-1 = {http://hdf.ncsa.uiuc.edu/HDF5/papers}}
 
-@manual{mathworksmexfiles,
+@misc{mathworksmexfiles,
 	Abstract = {Technical documentation for Matlab's MEX files, which provide an interface from Matlab to C.},
 	Date-Added = {2010-01-05 11:47:04 -0800},
-	Date-Modified = {2010-03-10 15:20:41 -0800},
+	Date-Modified = {2010-03-21 15:52:08 -0700},
+	Howpublished = {\url{http://www.mathworks.com/support/tech-notes/1600/1605.html}},
 	Keywords = {ffi,matlab},
 	Organization = {The Mathworks},
 	Title = {{MEX-files Guide}},
-	Url = {http://www.mathworks.com/support/tech-notes/1600/1605.html},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BVtYXRod29ya3NtZXhmaWxlcy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT6Bx5GcRAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzEAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTptYXRod29ya3NtZXhmaWxlcy5wZGYADgAsABUAbQBhAHQAaAB3AG8AcgBrAHMAbQBlAHgAZgBpAGwAZQBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L21hdGh3b3Jrc21leGZpbGVzLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvbWF0aHdvcmtzbWV4ZmlsZXMucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5},
 	Bdsk-Url-1 = {http://www.mathworks.com/support/tech-notes/1600/1605.html}}
 
@@ -1237,12 +1256,12 @@ Yampa is an instantiation of FRP as a domain-specific language embedded in Haske
 	Author = {Nick Benton and Andrew Kennedy},
 	Booktitle = {ICFP '99: Proceedings of the fourth ACM SIGPLAN international conference on Functional programming},
 	Date-Added = {2009-06-15 16:34:24 -0700},
-	Date-Modified = {2009-06-15 16:35:05 -0700},
+	Date-Modified = {2010-03-21 15:52:56 -0700},
 	Keywords = {types,ffi},
 	Location = {Paris, France},
 	Pages = {126--137},
 	Publisher = {ACM},
-	Title = {Interlanguage working without tears: blending SML with Java},
+	Title = {Interlanguage working without tears: blending {SML} with {Java}},
 	Year = {1999},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BViZW50b245OWludGVybGFuZy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT4Rx5GcQAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzAAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpiZW50b245OWludGVybGFuZy5wZGYADgAsABUAYgBlAG4AdABvAG4AOQA5AGkAbgB0AGUAcgBsAGEAbgBnAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2JlbnRvbjk5aW50ZXJsYW5nLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvYmVudG9uOTlpbnRlcmxhbmcucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5},
 	Bdsk-Url-1 = {http://doi.acm.org/10.1145/317636.317791}}
@@ -1302,12 +1321,12 @@ Beyond giving simple expressive models, our studies have uncovered several inter
 	Address = {New York, NY, USA},
 	Author = {Jennifer Hamilton},
 	Date-Added = {2009-06-15 16:20:52 -0700},
-	Date-Modified = {2009-06-15 16:22:01 -0700},
+	Date-Modified = {2010-03-21 15:54:43 -0700},
 	Journal = {ACM SIGPLAN Notices},
 	Keywords = {types,dotnet,ffi},
 	Number = {2},
 	Pages = {19--28},
-	Title = {Language integration in the common language runtime},
+	Title = {Language integration in the {Common Language Runtime}},
 	Volume = {38},
 	Year = {2003},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbwAAAAAAbwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BFoYW1pbHRvbjAzY2xyLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT5Lx5GcQQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzBAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBMTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpoYW1pbHRvbjAzY2xyLnBkZgAOACQAEQBoAGEAbQBpAGwAdABvAG4AMAAzAGMAbAByAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA/VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2hhbWlsdG9uMDNjbHIucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAZTGlicmFyeS9oYW1pbHRvbjAzY2xyLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJgAmICZwJwAnsCfwKNApQCnQK5Ar4CwQLOAtMAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC5Q==},
@@ -1350,11 +1369,11 @@ Beyond giving simple expressive models, our studies have uncovered several inter
 	Author = {Alan Kaplan and John Bubba and Jack C. Wileden},
 	Booktitle = {COMPSAC '01: Proceedings of the 25th International Computer Software and Applications Conference on Invigorating Software Development},
 	Date-Added = {2009-06-15 16:09:58 -0700},
-	Date-Modified = {2009-06-15 16:12:14 -0700},
+	Date-Modified = {2010-03-21 15:55:16 -0700},
 	Keywords = {types,ffi},
 	Pages = {393--394},
 	Publisher = {IEEE Computer Society},
-	Title = {The Exu Approach to Safe, Transparent and Lightweight Interoperability},
+	Title = {The {Exu} Approach to Safe, Transparent and Lightweight Interoperability},
 	Year = {2001},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbQAAAAAAbQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+A9rYXBsYW4wMWV4dS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT5lx5GcQwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzDAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBKTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTprYXBsYW4wMWV4dS5wZGYADgAgAA8AawBhAHAAbABhAG4AMAAxAGUAeAB1AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA9VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2thcGxhbjAxZXh1LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QF0xpYnJhcnkva2FwbGFuMDFleHUucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAlgCWgJfAmgCcwJ3AoUCjAKVAq8CtAK3AsQCyQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALb},
 	Bdsk-Url-1 = {http://doi.ieeecomputersociety.org/10.1109/CMPSAC.2001.960644}}
@@ -1453,13 +1472,13 @@ Beyond giving simple expressive models, our studies have uncovered several inter
 	Abstract = {Large computer networks such as corporate intranets and the Internet are inherently heterogeneous due to such factors as increasingly rapid technological change, engineering trade-offs, accumulation of legacy systems over time, and varying system costs. Unfortunately, such heterogeneity makes the development and maintenance of applications that make the best use of such networks difficult. The Common Object Request Broker Architecture specification created by the Object Management Group provides a stable model for distributed object-oriented systems that helps developers cope with heterogeneity and inevitable change. Applications written to the CORBA standard are abstracted away from underlying networking protocols and transports, instead relying on object request brokers to provide a fast and flexible communication and object activation substrated. The abstractions provided by CORBA ORBs are currently serving as the basis for applications in a wide variety of problem domains, including telecommunications, finance, medicine, and manufacturing, running on platforms ranging from mainframes down to test and measurement equipment. This article first provides an overview of the Object Management Architecture, then describes in detail the CORBA component of that architecture, and concludes with a description of the OMG organization along with some of its current and future work.},
 	Author = {Steve Vinoski},
 	Date-Added = {2009-06-15 14:29:58 -0700},
-	Date-Modified = {2009-06-15 14:32:23 -0700},
+	Date-Modified = {2010-03-21 15:56:33 -0700},
 	Journal = {IEEE Communications Magazine},
 	Keywords = {component,corba},
 	Month = {February},
 	Number = {2},
 	Pages = {46--55},
-	Title = {CORBA: integrating diverse applications within distributed heterogeneous environments},
+	Title = {{CORBA}: Integrating Diverse Applications Within Distributed Heterogeneous Environments},
 	Volume = {35},
 	Year = {1997},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcAAAAAAAcAAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BJ2aW5vc2tpOTdjb3JiYS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT62x5GcRgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzGAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBNTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTp2aW5vc2tpOTdjb3JiYS5wZGYAAA4AJgASAHYAaQBuAG8AcwBrAGkAOQA3AGMAbwByAGIAYQAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQFVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS92aW5vc2tpOTdjb3JiYS5wZGYAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QGkxpYnJhcnkvdmlub3NraTk3Y29yYmEucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAmQCZgJrAnQCfwKDApECmAKhAr4CwwLGAtMC2AAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALq},
@@ -1600,8 +1619,8 @@ Partition V: Debug Interchange Format.
 Partition VI: Annexes -- Contains some sample programs written in CIL Assembly Language (ILAsm), information about a particular implementation of an assembler, a machine-readable description of the CIL instruction set which can be used to derive parts of the grammar used by this assembler as well as other tools that manipulate CIL, a set of guidelines used in the design of the libraries of Partition IV , and portability considerations.
 },
 	Date-Added = {2009-06-12 16:19:07 -0700},
-	Date-Modified = {2009-06-12 16:23:08 -0700},
-	Howpublished = {http://www.ecma-international.org/publications/standards/Ecma-335.htm},
+	Date-Modified = {2010-03-21 15:48:39 -0700},
+	Howpublished = {\url{http://www.ecma-international.org/publications/standards/Ecma-335.htm}},
 	Keywords = {pl,ffi},
 	Month = {June},
 	Title = {Standard {ECMA}-335: {Common Language Infrastructure (CLI)}},
@@ -1639,8 +1658,8 @@ Partition VI: Annexes -- Contains some sample programs written in CIL Assembly L
 	Abstract = {The Java programming language is a general-purpose, concurrent, class-based, object-oriented language. It is designed to be simple enough that many programmers can achieve fluency in the language. The Java programming language is related to C and C++ but is organized rather differently, with a number of aspects of C and C++ omitted and a few ideas from other languages included. It is intended to be a production language, not a research language, and so, as C. A. R. Hoare suggested in his classic paper on language design, the design has avoided including new and untested features.},
 	Author = {James Gosling and Bill Joy and Guy Steele and Gilad Bracha},
 	Date-Added = {2009-06-12 15:23:18 -0700},
-	Date-Modified = {2009-06-12 15:26:46 -0700},
-	Edition = {Second Edition},
+	Date-Modified = {2010-03-21 15:54:04 -0700},
+	Edition = {Second},
 	Keywords = {pl,java},
 	Month = {June},
 	Publisher = {Prentice Hall PTR},
@@ -1651,10 +1670,10 @@ Partition VI: Annexes -- Contains some sample programs written in CIL Assembly L
 @misc{chakravarty03haskellffi,
 	Author = {Manuel Chakravarty and Sigbjorn Finne and Fergus Henderson and Marcin Kowalczyk and Daan Leijen and Simon Marlow and Erik Meijer and Sven Panne and Simon Peyton Jones and Alastair Reid and Malcolm Wallace and Michael Weber},
 	Date-Added = {2009-06-12 15:17:07 -0700},
-	Date-Modified = {2009-06-12 15:21:08 -0700},
-	Howpublished = {http://www.cse.unsw.edu.au/~chak/haskell/ffi/},
+	Date-Modified = {2010-03-21 15:53:42 -0700},
+	Howpublished = {\url{http://www.cse.unsw.edu.au/~chak/haskell/ffi/}},
 	Keywords = {pl,haskell,ffi},
-	Title = {The Haskell 98 Foreign Function Interface 1.0: An Addendum to the Haskell 98 Report},
+	Title = {The {Haskell} 98 Foreign Function Interface 1.0: An Addendum to the {Haskell} 98 Report},
 	Year = {2003},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAeQAAAAAAeQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BtjaGFrcmF2YXJ0eTAzaGFza2VsbGZmaS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT4dx5GcQAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzAAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBWTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpjaGFrcmF2YXJ0eTAzaGFza2VsbGZmaS5wZGYADgA4ABsAYwBoAGEAawByAGEAdgBhAHIAdAB5ADAAMwBoAGEAcwBrAGUAbABsAGYAZgBpAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBJVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2NoYWtyYXZhcnR5MDNoYXNrZWxsZmZpLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QI0xpYnJhcnkvY2hha3JhdmFydHkwM2hhc2tlbGxmZmkucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAogCigKPApgCowKnArUCvALFAusC8ALzAwADBQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMX},
 	Bdsk-Url-1 = {http://www.cse.unsw.edu.au/~chak/haskell/ffi/}}
@@ -1698,10 +1717,10 @@ Partition VI: Annexes -- Contains some sample programs written in CIL Assembly L
 	Author = {Scott Kohn and Gary Kumfert and Jeff Painter and Cal Ribbens},
 	Booktitle = {Proceedings of the 10th SIAM Conference on Parallel Processes},
 	Date-Added = {2009-06-12 14:48:28 -0700},
-	Date-Modified = {2009-06-12 14:51:19 -0700},
+	Date-Modified = {2010-03-21 22:43:47 -0700},
 	Keywords = {component,ffi},
 	Month = {March},
-	Title = {Divorcing Langauge Dependencies from a Scientific Software Library},
+	Title = {Divorcing Language Dependencies from a Scientific Software Library},
 	Year = {2001},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbQAAAAAAbQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+A9rb2huMDFiYWJlbC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT5tx5GcQwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzDAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBKTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTprb2huMDFiYWJlbC5wZGYADgAgAA8AawBvAGgAbgAwADEAYgBhAGIAZQBsAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA9VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2tvaG4wMWJhYmVsLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QF0xpYnJhcnkva29objAxYmFiZWwucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAlgCWgJfAmgCcwJ3AoUCjAKVAq8CtAK3AsQCyQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALb},
 	Bdsk-Url-1 = {http://eprints.cca-forum.org/84/}}
@@ -1711,14 +1730,14 @@ Partition VI: Annexes -- Contains some sample programs written in CIL Assembly L
 	Address = {New York, NY, USA},
 	Author = {John Reid},
 	Date-Added = {2009-06-12 14:46:21 -0700},
-	Date-Modified = {2009-06-12 14:51:55 -0700},
+	Date-Modified = {2010-03-21 15:55:39 -0700},
 	Doi = {10.1145/1408643.1408645},
 	Journal = {SIGPLAN Fortran Forum},
 	Keywords = {pl,fortran,ffi},
 	Number = {2},
 	Pages = {8--21},
 	Publisher = {ACM},
-	Title = {The new features of Fortran 2008},
+	Title = {The new features of {Fortran} 2008},
 	Volume = {27},
 	Year = {2008},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbwAAAAAAbwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BFyZWlkMDhmb3J0cmFuLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT6dx5GcRQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzFAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBMTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyZWlkMDhmb3J0cmFuLnBkZgAOACQAEQByAGUAaQBkADAAOABmAG8AcgB0AHIAYQBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA/VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3JlaWQwOGZvcnRyYW4ucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAZTGlicmFyeS9yZWlkMDhmb3J0cmFuLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJgAmICZwJwAnsCfwKNApQCnQK5Ar4CwQLOAtMAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC5Q==},
@@ -1729,14 +1748,14 @@ Partition VI: Annexes -- Contains some sample programs written in CIL Assembly L
 	Address = {New York, NY, USA},
 	Author = {John Reid},
 	Date-Added = {2009-06-12 14:44:38 -0700},
-	Date-Modified = {2009-06-12 14:51:55 -0700},
+	Date-Modified = {2010-03-21 15:55:45 -0700},
 	Doi = {10.1145/1243413.1243415},
 	Journal = {SIGPLAN Fortran Forum},
 	Keywords = {pl,fortran,ffi},
 	Number = {1},
 	Pages = {10--33},
 	Publisher = {ACM},
-	Title = {The new features of Fortran 2003},
+	Title = {The new features of {Fortran} 2003},
 	Volume = {26},
 	Year = {2007},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbwAAAAAAbwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BFyZWlkMDdmb3J0cmFuLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT6cx5GcRQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzFAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBMTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyZWlkMDdmb3J0cmFuLnBkZgAOACQAEQByAGUAaQBkADAANwBmAG8AcgB0AHIAYQBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA/VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3JlaWQwN2ZvcnRyYW4ucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAZTGlicmFyeS9yZWlkMDdmb3J0cmFuLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJgAmICZwJwAnsCfwKNApQCnQK5Ar4CwQLOAtMAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC5Q==},
@@ -1747,14 +1766,14 @@ Partition VI: Annexes -- Contains some sample programs written in CIL Assembly L
 	Address = {New York, NY, USA},
 	Author = {John Reid},
 	Date-Added = {2009-06-12 14:42:37 -0700},
-	Date-Modified = {2009-06-12 14:51:32 -0700},
+	Date-Modified = {2010-03-21 15:55:51 -0700},
 	Doi = {10.1145/1216213.1216214},
 	Journal = {SIGPLAN Fortran Forum},
 	Keywords = {pl,fortran,ffi},
 	Number = {2},
 	Pages = {1--31},
 	Publisher = {ACM},
-	Title = {The new features of Fortran 2000},
+	Title = {The new features of {Fortran} 2000},
 	Volume = {21},
 	Year = {2002},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbwAAAAAAbwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BFyZWlkMDBmb3J0cmFuLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGT6bx5GcRQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADHkgzFAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBMTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyZWlkMDBmb3J0cmFuLnBkZgAOACQAEQByAGUAaQBkADAAMABmAG8AcgB0AHIAYQBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA/VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3JlaWQwMGZvcnRyYW4ucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAZTGlicmFyeS9yZWlkMDBmb3J0cmFuLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJgAmICZwJwAnsCfwKNApQCnQK5Ar4CwQLOAtMAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC5Q==},
