@@ -2,12 +2,33 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-03-21 22:43:47 -0700 
+%% Created for Geoff Hulette at 2010-03-23 00:33:09 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@book{jvmspec,
+	Abstract = {The Java virtual machine is the cornerstone of the Java and Java 2 platforms. It is the component of the technology responsible for its hardware- and operating system- independence, the small size of its compiled code, and its ability to protect users from malicious programs.
+
+The Java virtual machine is an abstract computing machine. Like a real computing machine, it has an instruction set and manipulates various memory areas at run time. It is reasonably common to implement a programming language using a virtual machine; the best-known virtual machine may be the P-Code machine of UCSD Pascal.
+
+The first prototype implementation of the Java virtual machine, done at Sun Microsystems, Inc., emulated the Java virtual machine instruction set in software hosted by a handheld device that resembled a contemporary Personal Digital Assistant (PDA). Sun's current Java virtual machine implementations, components of its JavaTM 2 SDK and JavaTM 2 Runtime Environment products, emulate the Java virtual machine on Win32 and Solaris hosts in much more sophisticated ways. However, the Java virtual machine does not assume any particular implementation technology, host hardware, or host operating system. It is not inherently interpreted, but can just as well be implemented by compiling its instruction set to that of a silicon CPU. It may also be implemented in microcode or directly in silicon.
+
+The Java virtual machine knows nothing of the Java programming language, only of a particular binary format, the class file format. A class file contains Java virtual machine instructions (or bytecodes) and a symbol table, as well as other ancillary information.
+
+For the sake of security, the Java virtual machine imposes strong format and structural constraints on the code in a class file. However, any language with functionality that can be expressed in terms of a valid class file can be hosted by the Java virtual machine. Attracted by a generally available, machine-independent platform, implementors of other languages are turning to the Java virtual machine as a delivery vehicle for their languages.},
+	Author = {Tim Lindholm and Frank Yellin},
+	Date-Added = {2010-03-22 20:24:16 -0700},
+	Date-Modified = {2010-03-22 20:26:01 -0700},
+	Edition = {2nd},
+	Keywords = {java,jvm},
+	Month = {April},
+	Publisher = {Prentice Hall},
+	Title = {Java Virtual Machine Specification},
+	Year = {1999},
+	Bdsk-Url-1 = {http://java.sun.com/docs/books/jvms/second_edition/html/VMSpecTOC.doc.html}}
 
 @misc{comobjects,
 	Abstract = {Microsoft COM (Component Object Model) technology in the Microsoft Windows-family of Operating Systems enables software components to communicate. COM is used by developers to create re-usable software components, link components together to build applications, and take advantage of Windows services. COM objects can be created with a variety of programming languages. Object-oriented languages, such as C++, provide programming mechanisms that simplify the implementation of COM objects. The family of COM technologies includes COM+, Distributed COM (DCOM) and ActiveX{\textregistered} Controls.
@@ -2248,8 +2269,8 @@ other than streams, such as infinite trees, lambda terms, and proof objects.},
 	Author = {Matthias Blume},
 	Booktitle = {Electronic Notes in Theoretical Computer Science},
 	Date-Added = {2009-05-14 11:25:46 -0700},
-	Date-Modified = {2009-05-14 11:51:51 -0700},
-	Keywords = {ffi, pl},
+	Date-Modified = {2010-03-23 00:33:09 -0700},
+	Keywords = {ffi, pl, phantom, types, charon},
 	Title = {No-longer-foreign: Teaching an {ML} compiler to speak {C} natively},
 	Volume = {59},
 	Year = {2001},
