@@ -2,16 +2,84 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-03-26 18:13:09 -0700 
+%% Created for Geoff Hulette at 2010-07-02 15:18:10 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
 
+@inproceedings{zhang10selection,
+	Abstract = {Due to the expensiveness of compiling and executing a large number of mutants, it is usually necessary to select a subset of mutants to substitute the whole set of generated mutants in mutation testing and analysis. Most existing research on mutant selection focused on operator-based mutant selection, i.e., determining a set of sufficient mutation operators and selecting mutants generated with only this set of mutation operators. Recently, researchers began to leverage statistical analysis to determine sufficient mutation operators using execution information of mutants. However, whether mutants selected with these sophisticated techniques are superior to randomly selected mutants remains an open question. In this paper, we empirically investigate this open question by comparing three representative operator-based mutant-selection techniques with two random techniques. Our empirical results show that operator-based mutant selection is not superior to random mutant selection. These results also indicate that random mutant selection can be a better choice and mutant selection on the basis of individual mutants is worthy of further investigation.},
+	Address = {New York, NY, USA},
+	Author = {Zhang, Lu and Hou, Shan-Shan and Hu, Jun-Jue and Xie, Tao and Mei, Hong},
+	Booktitle = {ICSE '10: Proceedings of the 32nd ACM/IEEE International Conference on Software Engineering},
+	Date-Added = {2010-07-02 15:14:51 -0700},
+	Date-Modified = {2010-07-02 15:15:27 -0700},
+	Doi = {http://doi.acm.org/10.1145/1806799.1806863},
+	Isbn = {978-1-60558-719-6},
+	Keywords = {mutation},
+	Location = {Cape Town, South Africa},
+	Pages = {435--444},
+	Publisher = {ACM},
+	Title = {Is operator-based mutant selection superior to random mutant selection?},
+	Year = {2010},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/1806799.1806863},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BR6aGFuZzEwc2VsZWN0aW9uLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsvKqyFOxSQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADIVBO5AAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTp6aGFuZzEwc2VsZWN0aW9uLnBkZgAADgAqABQAegBoAGEAbgBnADEAMABzAGUAbABlAGMAdABpAG8AbgAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS96aGFuZzEwc2VsZWN0aW9uLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS96aGFuZzEwc2VsZWN0aW9uLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==}}
+
+@article{offut96sufficient,
+	Author = {A. Jefferson Offutt and Ammei Lee and Gregg Rothermel and Roland H. Untch and Christian Zapf},
+	Date-Added = {2010-07-02 15:10:09 -0700},
+	Date-Modified = {2010-07-02 15:13:48 -0700},
+	Journal = {ACM Trans. Softw. Eng. Methodol.},
+	Keywords = {mutation},
+	Number = {2},
+	Pages = {99--118},
+	Title = {An experimental determination of sufficient mutant operators},
+	Volume = {5},
+	Year = {1996},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BVvZmZ1dDk2c3VmZmljaWVudC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsvIEyFOw/AAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADIVBNsAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpvZmZ1dDk2c3VmZmljaWVudC5wZGYADgAsABUAbwBmAGYAdQB0ADkANgBzAHUAZgBmAGkAYwBpAGUAbgB0AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L29mZnV0OTZzdWZmaWNpZW50LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvb2ZmdXQ5NnN1ZmZpY2llbnQucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5}}
+
+@article{agrawal89operators,
+	Author = {Hiralal Agrawal and Richard A. DeMillo and R. Hathaway and William Hsu and Wynne Hsu and Edward W. Krauser and Rhonda J. Martin and Aditya P. Mathur and Eugene H. Spafford},
+	Date-Added = {2010-07-02 15:10:09 -0700},
+	Date-Modified = {2010-07-02 15:13:17 -0700},
+	Journal = {Technical Report SERC-TR-41-P},
+	Keywords = {mutation},
+	Title = {Design of Mutant Operators for the {C} Programming Language},
+	Year = {1989},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdAAAAAAAdAAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BZhZ3Jhd2FsODlvcGVyYXRvcnMucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsvQNyFOxeAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADIVBPoAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBRTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTphZ3Jhd2FsODlvcGVyYXRvcnMucGRmAAAOAC4AFgBhAGcAcgBhAHcAYQBsADgAOQBvAHAAZQByAGEAdABvAHIAcwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARFVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9hZ3Jhd2FsODlvcGVyYXRvcnMucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEB5MaWJyYXJ5L2FncmF3YWw4OW9wZXJhdG9ycy5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACdAJ2AnsChAKPApMCoQKoArEC0gLXAtoC5wLsAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAv4=}}
+
+@inproceedings{bieman01mutation,
+	Address = {Washington, DC, USA},
+	Author = {James M. Bieman and Sudipto Ghosh and Roger T. Alexander},
+	Booktitle = {ASE '01: Proceedings of the 16th IEEE international conference on Automated software engineering},
+	Date-Added = {2010-07-02 15:10:09 -0700},
+	Date-Modified = {2010-07-02 15:12:50 -0700},
+	Keywords = {mutation},
+	Pages = {337},
+	Publisher = {IEEE Computer Society},
+	Title = {A Technique for Mutation of Java Objects},
+	Year = {2001},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BRiaWVtYW4wMW11dGF0aW9uLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsvXIyFOxigAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADIVBP6AAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpiaWVtYW4wMW11dGF0aW9uLnBkZgAADgAqABQAYgBpAGUAbQBhAG4AMAAxAG0AdQB0AGEAdABpAG8AbgAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9iaWVtYW4wMW11dGF0aW9uLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS9iaWVtYW4wMW11dGF0aW9uLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==}}
+
+@article{hsueh97faultinjection,
+	Author = {Mei-Chen Hsueh and Timothy K. Tsai and Ravishankar K. Iyer},
+	Date-Added = {2010-07-02 15:10:09 -0700},
+	Date-Modified = {2010-07-02 15:11:34 -0700},
+	Journal = {Computer},
+	Keywords = {mutation},
+	Number = {4},
+	Pages = {75--82},
+	Title = {Fault Injection Techniques and Tools},
+	Volume = {30},
+	Year = {1997},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdwAAAAAAdwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+Bloc3VlaDk3ZmF1bHRpbmplY3Rpb24ucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsvdnyFOxlgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADIVBQGAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBUTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpoc3VlaDk3ZmF1bHRpbmplY3Rpb24ucGRmAA4ANAAZAGgAcwB1AGUAaAA5ADcAZgBhAHUAbAB0AGkAbgBqAGUAYwB0AGkAbwBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBHVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2hzdWVoOTdmYXVsdGluamVjdGlvbi5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfECFMaWJyYXJ5L2hzdWVoOTdmYXVsdGluamVjdGlvbi5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACgAKCAocCkAKbAp8CrQK0Ar0C4QLmAukC9gL7AAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAw0=}}
+
 @inproceedings{necula09cil,
 	Abstract = {This paper describes the C Intermediate Language: a high-level representation along with a set of tools that permit easy analysis and source-to-source transformation of C programs. Compared to C, CIL has fewer constructs. It breaks down certain complicated constructs of C into simpler ones, and thus it works at a lower level than abstract-syntax trees. But CIL is also more high-level than typical intermediate languages (e.g., three-address code) designed for compilation. As a result, what we have is a representation that makes it easy to analyze and manipulate C programs, and emit them in a form that resembles the original source. Moreover, it comes with a front-end that translates to CIL not only ANSI C programs but also those using Microsoft C or GNU C extensions.
-We describe the structure of CIL with a focus on how it disambiguates those features of C that we found to be most confusing for program analysis and transformation. We also describe a whole-program merger based on structural type equality, allowing a complete project to be viewed as a single compilation unit. As a representative application of CIL, we show a transformation aimed at making code immune to stack-smashing attacks. We are currently using CIL as part of a system that analyzes and instruments C programs with runtime checks to ensure type safety. CIL has served us very well in this project, and we believe it can usefully be applied in other situations as well.},
+
+We describe the structure of CIL with a focus on how it disambiguates those features of C that we found to be most confusing for program analysis and transformation. We also describe a whole-program merger based on structural type equality, allowing a complete project to be viewed as a single compilation unit. As a representative application of CIL, we show a transformation aimed at making code immune to stack-smashing attacks. We are currently using CIL as part of a system that analyzes and instruments C programs with runtime checks to ensure type safety. CIL has served us very well in this project, and we believe it can usefully be applied in other situations as well.},
 	Address = {Grenoble},
 	Author = {George C. Necula and Scott McPeak and S. P. Rahul and Westley Weimer},
 	Booktitle = {Proceedings of Conference on Compiler Construction (CC'02)},
@@ -20,8 +88,8 @@
 	Month = {March},
 	Title = {{CIL}: Intermediate Language and Tools for Analysis and Transformation of {C} Programs},
 	Year = {2002},
-	Bdsk-Url-1 = {http://www.eecs.berkeley.edu/~necula/},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbQAAAAAAbQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+A9uZWN1bGEwOWNpbC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWenbx9KmEAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADH0wiAAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBKTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpuZWN1bGEwOWNpbC5wZGYADgAgAA8AbgBlAGMAdQBsAGEAMAA5AGMAaQBsAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA9VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L25lY3VsYTA5Y2lsLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QF0xpYnJhcnkvbmVjdWxhMDljaWwucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAlgCWgJfAmgCcwJ3AoUCjAKVAq8CtAK3AsQCyQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALb}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbQAAAAAAbQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+A9uZWN1bGEwOWNpbC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWenbx9KmEAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADH0wiAAAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBKTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpuZWN1bGEwOWNpbC5wZGYADgAgAA8AbgBlAGMAdQBsAGEAMAA5AGMAaQBsAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA9VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L25lY3VsYTA5Y2lsLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QF0xpYnJhcnkvbmVjdWxhMDljaWwucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAlgCWgJfAmgCcwJ3AoUCjAKVAq8CtAK3AsQCyQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALb},
+	Bdsk-Url-1 = {http://www.eecs.berkeley.edu/~necula/}}
 
 @inbook{nystrom03polyglot,
 	Abstract = {Polyglot is an extensible compiler framework that supports the easy creation of compilers for languages similar to Java, while avoiding code duplication. The Polyglot framework is useful for domain-specific languages, exploration of language design, and for simplified versions of Java for pedagogical use. We have used Polyglot to implement several major and minor modifications to Java; the cost of implementing language extensions scales well with the degree to which the language differs from Java. This paper focuses on the design choices in Polyglot that are important for making the framework usable and highly extensible. Polyglot source code is available.},
@@ -35,8 +103,8 @@
 	Title = {Compiler Construction},
 	Volume = {2622/2003},
 	Year = {2003},
-	Bdsk-Url-1 = {http://www.springerlink.com/content/9bjr845plqxckhhq/},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BVueXN0cm9tMDNwb2x5Z2xvdC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWeUjx9KiRwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADH0wS3AAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpueXN0cm9tMDNwb2x5Z2xvdC5wZGYADgAsABUAbgB5AHMAdAByAG8AbQAwADMAcABvAGwAeQBnAGwAbwB0AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L255c3Ryb20wM3BvbHlnbG90LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvbnlzdHJvbTAzcG9seWdsb3QucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMbyEKlIKwAAABk9+BVueXN0cm9tMDNwb2x5Z2xvdC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWeUjx9KiRwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADG8nMZAAAAEQAIAADH0wS3AAAAAQAUABk9+AAZPbQABboyAAW6JQAAkaAAAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpueXN0cm9tMDNwb2x5Z2xvdC5wZGYADgAsABUAbgB5AHMAdAByAG8AbQAwADMAcABvAGwAeQBnAGwAbwB0AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L255c3Ryb20wM3BvbHlnbG90LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvbnlzdHJvbTAzcG9seWdsb3QucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5},
+	Bdsk-Url-1 = {http://www.springerlink.com/content/9bjr845plqxckhhq/}}
 
 @book{jvmspec,
 	Abstract = {The Java virtual machine is the cornerstone of the Java and Java 2 platforms. It is the component of the technology responsible for its hardware- and operating system- independence, the small size of its compiled code, and its ability to protect users from malicious programs.
