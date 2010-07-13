@@ -2,45 +2,83 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-07-12 15:57:46 -0700 
+%% Created for Geoff Hulette at 2010-07-13 16:59:17 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
 
+@inproceedings{zhang01survivability,
+	Abstract = {We believe that a network, to be survivable, must be heterogeneous. Just like a species that draws on a small gene pool can succumb to a single environmental threat, so a homogeneous network is vulnerable to a malicious attack that exploits a single weakness common to all of its components. In contrast, in a network in which each critical functionality is provided by a diverse set of protocols and implementations, attacks that focus on a weakness of one such protocol or implementation will not be able to bring down the entire network, even though all elements are not be bulletproof and even if some of components are compromised.Following this survivability through heterogeneity philosophy, we propose a new survivability paradigm, called heterogeneous networking, for improving a network's defense capabilities. Rather than following the current trend of converging towards single solutions to provide the desired functionality at every element of the network architecture, this methodology calls for systematically increasing the network's heterogeneity without sacrificing its interoperability. },
+	Address = {New York, NY, USA},
+	Author = {Zhang, Yongguang and Vin, Harrick and Alvisi, Lorenzo and Lee, Wenke and Dao, Son K.},
+	Booktitle = {NSPW '01: Proceedings of the 2001 workshop on New security paradigms},
+	Date-Added = {2010-07-13 13:44:58 -0700},
+	Date-Modified = {2010-07-13 16:59:17 -0700},
+	Doi = {http://doi.acm.org/10.1145/508171.508177},
+	Isbn = {1-58113-457-6},
+	Keywords = {diversity,security},
+	Location = {Cloudcroft, New Mexico},
+	Pages = {33--39},
+	Publisher = {ACM},
+	Title = {Heterogeneous networking: a new survivability paradigm},
+	Year = {2001},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/508171.508177},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdgAAAAAAdgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhh6aGFuZzAxc3Vydml2YWJpbGl0eS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFWKlyGIeswAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYoEjAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBTTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTp6aGFuZzAxc3Vydml2YWJpbGl0eS5wZGYAAA4AMgAYAHoAaABhAG4AZwAwADEAcwB1AHIAdgBpAHYAYQBiAGkAbABpAHQAeQAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS96aGFuZzAxc3Vydml2YWJpbGl0eS5wZGYAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QIExpYnJhcnkvemhhbmcwMXN1cnZpdmFiaWxpdHkucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnwCfgKDAowClwKbAqkCsAK5AtwC4QLkAvEC9gAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMI}}
+
+@inproceedings{kc03randomization,
+	Abstract = {We describe a new, general approach for safeguarding systems against any type of code-injection attack. We apply Kerckhoff's principle, by creating process-specific randomized instruction sets (e.g., machine instructions) of the system executing potentially vulnerable software. An attacker who does not know the key to the randomization algorithm will inject code that is invalid for that randomized processor, causing a runtime exception. To determine the difficulty of integrating support for the proposed mechanism in the operating system, we modified the Linux kernel, the GNU binutils tools, and the bochs-x86  emulator. Although the performance penalty is significant, our prototype demonstrates the feasibility of the approach, and should be directly usable on a suitable-modified processor (e.g., the Transmeta Crusoe).Our approach is equally applicable against code-injecting attacks in scripting and interpreted languages, e.g.,  web-based SQL injection. We demonstrate this by modifying the Perl interpreter to permit randomized script execution. The performance penalty in this case is minimal. Where our proposed approach is feasible (i.e., in an emulated environment, in the presence of programmable or specialized hardware, or in interpreted languages), it can serve as a low-overhead protection mechanism, and can easily complement other mechanisms. },
+	Address = {New York, NY, USA},
+	Author = {Kc, Gaurav S. and Keromytis, Angelos D. and Prevelakis, Vassilis},
+	Booktitle = {CCS '03: Proceedings of the 10th ACM conference on Computer and communications security},
+	Date-Added = {2010-07-13 12:36:37 -0700},
+	Date-Modified = {2010-07-13 16:59:14 -0700},
+	Doi = {http://doi.acm.org/10.1145/948109.948146},
+	Isbn = {1-58113-738-9},
+	Keywords = {diversity,security},
+	Location = {Washington D.C., USA},
+	Pages = {272--280},
+	Publisher = {ACM},
+	Title = {Countering code-injection attacks with instruction-set randomization},
+	Year = {2003},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/948109.948146},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhVrYzAzcmFuZG9taXphdGlvbi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVKMyGIOOAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYnCoAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTprYzAzcmFuZG9taXphdGlvbi5wZGYADgAsABUAawBjADAAMwByAGEAbgBkAG8AbQBpAHoAYQB0AGkAbwBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2tjMDNyYW5kb21pemF0aW9uLnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkva2MwM3JhbmRvbWl6YXRpb24ucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5}}
+
 @article{forrest97diverse,
 	Abstract = {Diversity is an important source of robustness in biological systems. Computers, by contrast, are notable for their lack of diversity. Although homogeneous systems have many advantages, the beneficial effects of diversity in computing systems have been overlooked, specifically in the area of computer security. Several methods of achieving software diversity are discussed based on randomizations that respect the specified behavior of the program. Such randomization could potentially increase the robustness of software systems with minimal impact on convenience, usability, and efficiency. Randomization of the amount of memory allocated on a stack frame is shown to disrupt a simple buffer overflow attack.},
 	Address = {Los Alamitos, CA, USA},
 	Author = {S. Forrest and A. Somayaji and D. Ackley},
 	Date-Added = {2010-07-12 15:56:58 -0700},
-	Date-Modified = {2010-07-12 15:57:38 -0700},
+	Date-Modified = {2010-07-13 16:59:09 -0700},
 	Doi = {http://doi.ieeecomputersociety.org/10.1109/HOTOS.1997.595185},
 	Isbn = {0-8186-7834-8},
 	Journal = {Hot Topics in Operating Systems, Workshop on},
+	Keywords = {diversity,security},
 	Pages = {67},
 	Publisher = {IEEE Computer Society},
 	Title = {Building Diverse Computer Systems},
 	Volume = {0},
 	Year = {1997},
-	Bdsk-Url-1 = {http://doi.ieeecomputersociety.org/10.1109/HOTOS.1997.595185},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhRmb3JyZXN0OTdkaXZlcnNlLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEosyGDp2gAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYUxKAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpmb3JyZXN0OTdkaXZlcnNlLnBkZgAADgAqABQAZgBvAHIAcgBlAHMAdAA5ADcAZABpAHYAZQByAHMAZQAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9mb3JyZXN0OTdkaXZlcnNlLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS9mb3JyZXN0OTdkaXZlcnNlLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhRmb3JyZXN0OTdkaXZlcnNlLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEosyGDp2gAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYUxKAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpmb3JyZXN0OTdkaXZlcnNlLnBkZgAADgAqABQAZgBvAHIAcgBlAHMAdAA5ADcAZABpAHYAZQByAHMAZQAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9mb3JyZXN0OTdkaXZlcnNlLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS9mb3JyZXN0OTdkaXZlcnNlLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==},
+	Bdsk-Url-1 = {http://doi.ieeecomputersociety.org/10.1109/HOTOS.1997.595185}}
 
 @inproceedings{barrantes03randomized,
 	Address = {New York, NY, USA},
 	Author = {Barrantes, Elena Gabriela and Ackley, David H. and Palmer, Trek S. and Stefanovic, Darko and Zovi, Dino Dai},
 	Booktitle = {CCS '03: Proceedings of the 10th ACM conference on Computer and communications security},
 	Date-Added = {2010-07-12 15:23:52 -0700},
-	Date-Modified = {2010-07-12 15:24:04 -0700},
+	Date-Modified = {2010-07-13 16:59:00 -0700},
 	Doi = {http://doi.acm.org/10.1145/948109.948147},
 	Isbn = {1-58113-738-9},
+	Keywords = {diversity,security},
 	Location = {Washington D.C., USA},
 	Pages = {281--289},
 	Publisher = {ACM},
 	Title = {Randomized instruction set emulation to disrupt binary code injection attacks},
 	Year = {2003},
-	Bdsk-Url-1 = {http://doi.acm.org/10.1145/948109.948147},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdwAAAAAAdwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhliYXJyYW50ZXMwM3JhbmRvbWl6ZWQucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFETjyGDkGgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYUaKAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBUTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpiYXJyYW50ZXMwM3JhbmRvbWl6ZWQucGRmAA4ANAAZAGIAYQByAHIAYQBuAHQAZQBzADAAMwByAGEAbgBkAG8AbQBpAHoAZQBkAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBHVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2JhcnJhbnRlczAzcmFuZG9taXplZC5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfECFMaWJyYXJ5L2JhcnJhbnRlczAzcmFuZG9taXplZC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACgAKCAocCkAKbAp8CrQK0Ar0C4QLmAukC9gL7AAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAw0=}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdwAAAAAAdwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhliYXJyYW50ZXMwM3JhbmRvbWl6ZWQucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFETjyGDkGgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYUaKAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBUTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpiYXJyYW50ZXMwM3JhbmRvbWl6ZWQucGRmAA4ANAAZAGIAYQByAHIAYQBuAHQAZQBzADAAMwByAGEAbgBkAG8AbQBpAHoAZQBkAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBHVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2JhcnJhbnRlczAzcmFuZG9taXplZC5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfECFMaWJyYXJ5L2JhcnJhbnRlczAzcmFuZG9taXplZC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACgAKCAocCkAKbAp8CrQK0Ar0C4QLmAukC9gL7AAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAw0=},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/948109.948147}}
 
 @inproceedings{odonnell04diversity,
 	Abstract = {It is widely believed that diversity in operating systems, software packages, and hardware platforms will decrease the virulence of worms and the effectiveness of repeated applications of single attacks. Research efforts in the field have focused on introducing diversity using a variety of techniques on a system-by-system basis. This paper, on the other hand, assumes the availability of diverse software packages for each system and then seeks to increase the intrinsic value of available diversity by considering the entire computer network. We present several distributed algorithms for the assignment of distinct software packages to individual systems and analyze their performance. Our goal is to limit the ability of a malicious node to use a single attack to compromise its neighboring nodes, and by extension, the rest of the nodes in the network. The algorithms themselves are analyzed for attack tolerance, and strategies for improving the security of the individual software assignment schemes are presented. We present a comparative analysis of our algorithms using simulation results on a topology obtained from e-mail traffic logs between users at our institution. We find that hybrid versions of our algorithms incorporating multiple assignment strategies achieve better attack tolerance than any given assignment strategy. Our work thus shows that diversity must be introduced at all levels of system design, including any scheme that is used to introduce diversity itself.},
@@ -48,15 +86,15 @@
 	Author = {O'Donnell, Adam J. and Sethu, Harish},
 	Booktitle = {CCS '04: Proceedings of the 11th ACM conference on Computer and communications security},
 	Date-Added = {2010-07-12 15:20:51 -0700},
-	Date-Modified = {2010-07-12 15:21:48 -0700},
+	Date-Modified = {2010-07-13 16:58:47 -0700},
 	Isbn = {1-58113-961-6},
-	Keywords = {diversity},
+	Keywords = {diversity,security},
 	Pages = {121--131},
 	Publisher = {ACM},
 	Title = {On achieving software diversity for improved network security using distributed coloring algorithms},
 	Year = {2004},
-	Bdsk-Url-1 = {http://doi.acm.org/10.1145/1030083.1030101},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdQAAAAAAdQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhdvZG9ubmVsbDA0ZGl2ZXJzaXR5LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFENVyGDjQwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYUWzAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBSTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpvZG9ubmVsbDA0ZGl2ZXJzaXR5LnBkZgAOADAAFwBvAGQAbwBuAG4AZQBsAGwAMAA0AGQAaQB2AGUAcgBzAGkAdAB5AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBFVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L29kb25uZWxsMDRkaXZlcnNpdHkucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAfTGlicmFyeS9vZG9ubmVsbDA0ZGl2ZXJzaXR5LnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJ4AnoCfwKIApMClwKlAqwCtQLXAtwC3wLsAvEAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADAw==}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdQAAAAAAdQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhdvZG9ubmVsbDA0ZGl2ZXJzaXR5LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFENVyGDjQwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIYUWzAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBSTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpvZG9ubmVsbDA0ZGl2ZXJzaXR5LnBkZgAOADAAFwBvAGQAbwBuAG4AZQBsAGwAMAA0AGQAaQB2AGUAcgBzAGkAdAB5AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBFVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L29kb25uZWxsMDRkaXZlcnNpdHkucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAfTGlicmFyeS9vZG9ubmVsbDA0ZGl2ZXJzaXR5LnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJ4AnoCfwKIApMClwKlAqwCtQLXAtwC3wLsAvEAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADAw==},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/1030083.1030101}}
 
 @article{yang02ensembles,
 	Abstract = {Neural network ensembles (some times referred to as committees or classifier ensembles) are effective techniques to improve the generalization of a neural network system. Combining a set of neural network classifiers whose error distributions are diverse can lead to generating more accurate results than any single network. Combination strategies commonly used in ensembles include simple averaging, weighted averaging, majority voting and ranking. However, each method has its limitations, dependent either on the application areas it is suited to, or due to its effectiveness. This paper proposes a new ensembles combination scheme called multistage neural network ensembles. Experimental investigations based on multistage neural network ensembles are presented, and the benefit of using this approach as an additional combination method in ensembles is demonstrated. },
