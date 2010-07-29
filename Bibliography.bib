@@ -2,12 +2,47 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-07-20 16:36:26 -0700 
+%% Created for Geoff Hulette at 2010-07-28 18:29:37 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@incollection{paterson03arrows,
+	Abstract = {Many programs and libraries involve components that are `function-like', in that they take inputs and produce outputs, but are not simple functions from inputs to outputs. This chapter explores the features of such `notions of computation', defining a common interface, called `arrows'. This allows all these notions of computation to share infrastructure, such as libraries, proofs or language support. Arrows also provide a useful discipline for structuring many programs, and allow one to program at a greater level of generality. Monads, discussed in Chapter 11 of IFPH, serve a similar purpose, but arrows are more general. In particular, they include notions of computation with static components, independent of the input, as well as computations that consume multiple inputs. We also consider some useful subclasses of arrows, one of which turns out to be equivalent to monads. The others bring choice and feedback to the arrow world.
+
+With this machinery, we can give a common structure to programs based on different notions of computation. The generality of arrows tends to force one into a point-free style, which is useful for proving general properties. However it is not to everyone's taste, and can be awkward for programming specific instances. The solution is a point-wise notation for arrows, which is automatically translated to the functional language Haskell. Each notion of computation thus defines a special sublanguage of Haskell.},
+	Author = {Ross Paterson},
+	Booktitle = {The Fun of Programming},
+	Date-Added = {2010-07-28 12:31:05 -0700},
+	Date-Modified = {2010-07-28 12:31:23 -0700},
+	Editor = {Jeremy Gibbons and Oege de Moor},
+	Pages = {201-222},
+	Publisher = {Palgrave},
+	Title = {Arrows and Computation},
+	Url = {http://www.soi.city.ac.uk/~ross/papers/fop.html},
+	Year = 2003,
+	Bdsk-Url-1 = {http://www.soi.city.ac.uk/~ross/papers/fop.html},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhRwYXRlcnNvbjAzYXJyb3dzLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKUd4yHXTxwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIdjY3AAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpwYXRlcnNvbjAzYXJyb3dzLnBkZgAADgAqABQAcABhAHQAZQByAHMAbwBuADAAMwBhAHIAcgBvAHcAcwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9wYXRlcnNvbjAzYXJyb3dzLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS9wYXRlcnNvbjAzYXJyb3dzLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==}}
+
+@article{mcbride08applicative,
+	Abstract = {In this article, we introduce Applicative functors -- an abstract characterisation of an applicative style of effectful programming, weaker than Monads and hence more widespread. Indeed, it is the ubiquity of this programming pattern that drew us to the abstraction. We retrace our steps in this article, introducing the applicative pattern by diverse examples, then abstracting it to define the Applicative type class and introducing a bracket notation that interprets the normal application syntax in the idiom of an Applicative functor. Furthermore, we develop the properties of applicative functors and the generic operations they support. We close by identifying the categorical structure of applicative functors and examining their relationship both with Monads and with Arrow.},
+	Address = {New York, NY, USA},
+	Author = {Mcbride, Conor and Paterson, Ross},
+	Date-Added = {2010-07-23 15:26:12 -0700},
+	Date-Modified = {2010-07-23 15:26:37 -0700},
+	Doi = {http://dx.doi.org/10.1017/S0956796807006326},
+	Issn = {0956-7968},
+	Journal = {J. Funct. Program.},
+	Number = {1},
+	Pages = {1--13},
+	Publisher = {Cambridge University Press},
+	Title = {Applicative programming with effects},
+	Volume = {18},
+	Year = {2008},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdgAAAAAAdgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhhtY2JyaWRlMDhhcHBsaWNhdGl2ZS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJcmayG9kxAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIb8c0AAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBTTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTptY2JyaWRlMDhhcHBsaWNhdGl2ZS5wZGYAAA4AMgAYAG0AYwBiAHIAaQBkAGUAMAA4AGEAcABwAGwAaQBjAGEAdABpAHYAZQAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9tY2JyaWRlMDhhcHBsaWNhdGl2ZS5wZGYAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QIExpYnJhcnkvbWNicmlkZTA4YXBwbGljYXRpdmUucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnwCfgKDAowClwKbAqkCsAK5AtwC4QLkAvEC9gAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMI},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1017/S0956796807006326}}
 
 @article{lallement96semigroup,
 	Author = {Lallement, Gerard},
@@ -20,8 +55,8 @@
 	Title = {Semigroups, automata and languages},
 	Volume = {53},
 	Year = {1996},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/BF02574155},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdgAAAAAAdgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhhsYWxsZW1lbnQ5NnNlbWlncm91cC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7NMyGuA+QAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIa+NpAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBTTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpsYWxsZW1lbnQ5NnNlbWlncm91cC5wZGYAAA4AMgAYAGwAYQBsAGwAZQBtAGUAbgB0ADkANgBzAGUAbQBpAGcAcgBvAHUAcAAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9sYWxsZW1lbnQ5NnNlbWlncm91cC5wZGYAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QIExpYnJhcnkvbGFsbGVtZW50OTZzZW1pZ3JvdXAucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnwCfgKDAowClwKbAqkCsAK5AtwC4QLkAvEC9gAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMI}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdgAAAAAAdgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhhsYWxsZW1lbnQ5NnNlbWlncm91cC5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7NMyGuA+QAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIa+NpAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBTTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpsYWxsZW1lbnQ5NnNlbWlncm91cC5wZGYAAA4AMgAYAGwAYQBsAGwAZQBtAGUAbgB0ADkANgBzAGUAbQBpAGcAcgBvAHUAcAAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9sYWxsZW1lbnQ5NnNlbWlncm91cC5wZGYAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QIExpYnJhcnkvbGFsbGVtZW50OTZzZW1pZ3JvdXAucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnwCfgKDAowClwKbAqkCsAK5AtwC4QLkAvEC9gAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMI},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/BF02574155}}
 
 @techreport{brand00terms,
 	Abstract = {How do distributed applications exchange tree-like data structures? We introduce the abstract data type of Annotated Terms (ATerms) and discuss their design, implementation and application. A comprehensive procedural interface enables creation and manipulation of ATerms in C or Java. The ATerm implementation is based on maximal subterm sharing and automatic garbage collection. A binary exchange format for the concise representation of ATerms (sharing preserved) allows the fast exchange of ATerms between applications. In a typical application---parse trees which contain considerable redundant information---less than 2 bytes are needed to represent a node in memory, and less than 2 bits are needed to represent it in binary format. The implementation of ATerms scales up to the manipulation of ATerms in the giga-byte range.},
