@@ -2,12 +2,24 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-07-28 18:29:37 -0700 
+%% Created for Geoff Hulette at 2010-07-30 16:18:11 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@article{jones92implementinglazy,
+	Abstract = {The Spineless Tagless G-machine is an abstract machine designed to support nonstrict higher-order functional languages. This presentation of the machine falls into three parts. Firstly, we give a general discussion of the design issues involved in implementing non-strict functional languages. Next, we present the STG language, an austere but recognisably-functional language, which as well as a denotational meaning has a well-defined operational semantics. The STG language is the "abstract machine code" for the Spineless Tagless G-machine. Lastly, we discuss the mapping of the STG language onto stock hardware. The success of an abstract machine model depends largely on how efficient this mapping can be made, though this topic is often relegated to a short section. Instead, we give a detailed discussion of the design issues and the choices we have made. Our principal target is the C language, treating the C compiler as a portable assembler.},
+	Author = {Simon L. Peyton Jones},
+	Date-Added = {2010-07-30 16:17:28 -0700},
+	Date-Modified = {2010-07-30 16:17:53 -0700},
+	Journal = {Journal of Functional Programming},
+	Pages = {127--202},
+	Title = {Implementing lazy functional languages on stock hardware: the Spineless Tagless G-machine - Version 2.5},
+	Volume = {2},
+	Year = {1992},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAeQAAAAAAeQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhtqb25lczkyaW1wbGVtZW50aW5nbGF6eS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK7sPyHirjwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIeQ3/AAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBWTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpqb25lczkyaW1wbGVtZW50aW5nbGF6eS5wZGYADgA4ABsAagBvAG4AZQBzADkAMgBpAG0AcABsAGUAbQBlAG4AdABpAG4AZwBsAGEAegB5AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBJVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2pvbmVzOTJpbXBsZW1lbnRpbmdsYXp5LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QI0xpYnJhcnkvam9uZXM5MmltcGxlbWVudGluZ2xhenkucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAogCigKPApgCowKnArUCvALFAusC8ALzAwADBQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMX}}
 
 @incollection{paterson03arrows,
 	Abstract = {Many programs and libraries involve components that are `function-like', in that they take inputs and produce outputs, but are not simple functions from inputs to outputs. This chapter explores the features of such `notions of computation', defining a common interface, called `arrows'. This allows all these notions of computation to share infrastructure, such as libraries, proofs or language support. Arrows also provide a useful discipline for structuring many programs, and allow one to program at a greater level of generality. Monads, discussed in Chapter 11 of IFPH, serve a similar purpose, but arrows are more general. In particular, they include notions of computation with static components, independent of the input, as well as computations that consume multiple inputs. We also consider some useful subclasses of arrows, one of which turns out to be equivalent to monads. The others bring choice and feedback to the arrow world.
@@ -23,8 +35,8 @@ With this machinery, we can give a common structure to programs based on differe
 	Title = {Arrows and Computation},
 	Url = {http://www.soi.city.ac.uk/~ross/papers/fop.html},
 	Year = 2003,
-	Bdsk-Url-1 = {http://www.soi.city.ac.uk/~ross/papers/fop.html},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhRwYXRlcnNvbjAzYXJyb3dzLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKUd4yHXTxwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIdjY3AAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpwYXRlcnNvbjAzYXJyb3dzLnBkZgAADgAqABQAcABhAHQAZQByAHMAbwBuADAAMwBhAHIAcgBvAHcAcwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9wYXRlcnNvbjAzYXJyb3dzLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS9wYXRlcnNvbjAzYXJyb3dzLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhRwYXRlcnNvbjAzYXJyb3dzLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKUd4yHXTxwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIdjY3AAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpwYXRlcnNvbjAzYXJyb3dzLnBkZgAADgAqABQAcABhAHQAZQByAHMAbwBuADAAMwBhAHIAcgBvAHcAcwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9wYXRlcnNvbjAzYXJyb3dzLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS9wYXRlcnNvbjAzYXJyb3dzLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==},
+	Bdsk-Url-1 = {http://www.soi.city.ac.uk/~ross/papers/fop.html}}
 
 @article{mcbride08applicative,
 	Abstract = {In this article, we introduce Applicative functors -- an abstract characterisation of an applicative style of effectful programming, weaker than Monads and hence more widespread. Indeed, it is the ubiquity of this programming pattern that drew us to the abstraction. We retrace our steps in this article, introducing the applicative pattern by diverse examples, then abstracting it to define the Applicative type class and introducing a bracket notation that interprets the normal application syntax in the idiom of an Applicative functor. Furthermore, we develop the properties of applicative functors and the generic operations they support. We close by identifying the categorical structure of applicative functors and examining their relationship both with Monads and with Arrow.},
