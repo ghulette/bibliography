@@ -2,12 +2,55 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-08-18 22:29:39 -0700 
+%% Created for Geoff Hulette at 2010-09-20 15:11:36 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@unpublished{lammel02essence,
+	Author = {Ralf L{\"a}mmel and Eelco Visser and Joost Visser},
+	Date-Added = {2010-09-20 15:10:51 -0700},
+	Date-Modified = {2010-09-20 15:11:05 -0700},
+	Month = oct # 15,
+	Note = {18 p.; Draft; Available at \url{http://www.cwi.nl/~ralf}},
+	Title = {{The Essence of Strategic Programming}},
+	Year = 2002,
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcQAAAAAAcQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhNsYW1tZWwwMmVzc2VuY2UucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaikayL0poAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIvYwQAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBOTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpsYW1tZWwwMmVzc2VuY2UucGRmAA4AKAATAGwAYQBtAG0AZQBsADAAMgBlAHMAcwBlAG4AYwBlAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBBVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2xhbW1lbDAyZXNzZW5jZS5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBtMaWJyYXJ5L2xhbW1lbDAyZXNzZW5jZS5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACaAJqAm8CeAKDAocClQKcAqUCwwLIAssC2ALdAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAu8=}}
+
+@inproceedings{lammel03scrap,
+	Abstract = {We describe a design pattern for writing programs that traverse data structures built from rich mutually-recursive data types. Such programs often have a great deal of "boilerplate" code that simply walks the structure, hiding a small amount of "real" code that constitutes the reason for the traversal.Our technique allows most of this boilerplate to be written once and for all, or even generated mechanically, leaving the programmer free to concentrate on the important part of the algorithm. These generic programs are much more adaptive when faced with data structure evolution because they contain many fewer lines of type-specific code.Our approach is simple to understand, reasonably efficient, and it handles all the data types found in conventional functional programming languages. It makes essential use of rank-2 polymorphism, an extension found in some implementations of Haskell. Further it relies on a simple type-safe cast operator.},
+	Address = {New York, NY, USA},
+	Author = {L\"{a}mmel, Ralf and Jones, Simon Peyton},
+	Booktitle = {TLDI '03: Proceedings of the 2003 ACM SIGPLAN international workshop on Types in languages design and implementation},
+	Date-Added = {2010-09-20 15:04:19 -0700},
+	Date-Modified = {2010-09-20 15:04:37 -0700},
+	Doi = {http://doi.acm.org/10.1145/604174.604179},
+	Isbn = {1-58113-649-8},
+	Location = {New Orleans, Louisiana, USA},
+	Pages = {26--37},
+	Publisher = {ACM},
+	Title = {Scrap your boilerplate: a practical design pattern for generic programming},
+	Year = {2003},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/604174.604179},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbwAAAAAAbwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhFsYW1tZWwwM3NjcmFwLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaiSTyL0obAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIvYrcAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBMTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpsYW1tZWwwM3NjcmFwLnBkZgAOACQAEQBsAGEAbQBtAGUAbAAwADMAcwBjAHIAYQBwAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA/VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2xhbW1lbDAzc2NyYXAucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAZTGlicmFyeS9sYW1tZWwwM3NjcmFwLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJgAmICZwJwAnsCfwKNApQCnQK5Ar4CwQLOAtMAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC5Q==}}
+
+@inproceedings{lammel04haskell,
+	Abstract = {Programmable rewriting strategies provide a valuable tool for implementing traversal functionality in grammar-driven (or schema-driven) tools. The working Haskell programmer has access to programmable rewriting strategies via two similar options: (i) the Strafunski bundle for generic functional programming and language processing, and (ii) the "Scrap your boilerplate" approach to generic functional programming. Basic rewrite steps are encoded as monomorphic functions on datatypes. Rewriting strategies are polymorphic functions composed from appropriate basic strategy combinators.
+
+We will briefly review programmable rewriting strategies in Haskell. We will address the following questions:
+
+What are the merits of Haskellish strategies?
+What is the relation between strategic programming and generic programming?
+What are the challenges for future work on functional strategies?},
+	Author = {Ralf L{\"a}mmel},
+	Date-Added = {2010-09-20 11:40:54 -0700},
+	Date-Modified = {2010-09-20 11:41:23 -0700},
+	Notes = {Invited paper; Proceedings of WRS 2004; 13 pages; To appear in ENTCS},
+	Title = {{Programmable rewriting strategies in Haskell}},
+	Year = 2004,
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcQAAAAAAcQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhNsYW1tZWwwNGhhc2tlbGwucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaxyLz4owAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIvVsTAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBOTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpsYW1tZWwwNGhhc2tlbGwucGRmAA4AKAATAGwAYQBtAG0AZQBsADAANABoAGEAcwBrAGUAbABsAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBBVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2xhbW1lbDA0aGFza2VsbC5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBtMaWJyYXJ5L2xhbW1lbDA0aGFza2VsbC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACaAJqAm8CeAKDAocClQKcAqUCwwLIAssC2ALdAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAu8=}}
 
 @techreport{hulette10reduction,
 	Author = {Geoffrey C. Hulette},
