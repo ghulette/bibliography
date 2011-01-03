@@ -2,12 +2,82 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Geoff Hulette at 2010-11-16 17:06:47 -0800 
+%% Created for Geoff Hulette at 2011-01-03 13:02:41 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@inproceedings{noort08rewriting,
+	Address = {New York, NY, USA},
+	Author = {Noort, Thomas van and Rodriguez, Alexey and Holdermans, Stefan and Jeuring, Johan and Heeren, Bastiaan},
+	Booktitle = {Proceedings of the ACM SIGPLAN workshop on Generic programming},
+	Date-Added = {2011-01-03 12:55:35 -0800},
+	Date-Modified = {2011-01-03 12:56:28 -0800},
+	Isbn = {978-1-60558-060-9},
+	Keywords = {datatype-generic programming, term rewriting},
+	Location = {Victoria, BC, Canada},
+	Pages = {13--24},
+	Publisher = {ACM},
+	Series = {WGP '08},
+	Title = {A lightweight approach to datatype-generic rewriting},
+	Year = {2008},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/1411318.1411321},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcgAAAAAAcgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhRub29ydDA4cmV3cml0aW5nLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+EY+yUd4bQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJR+jtAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBPTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpub29ydDA4cmV3cml0aW5nLnBkZgAADgAqABQAbgBvAG8AcgB0ADAAOAByAGUAdwByAGkAdABpAG4AZwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9ub29ydDA4cmV3cml0aW5nLnBkZgATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAcTGlicmFyeS9ub29ydDA4cmV3cml0aW5nLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJsAm4CcwJ8AocCiwKZAqACqQLIAs0C0ALdAuIAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC9A==}}
+
+@article{kerneis10cont,
+	Abstract = {In this paper, we introduce Continuation Passing C (CPC), a programming language for concurrent systems in which native and cooperative threads are unified and presented to the programmer as a single abstraction. The CPC compiler uses a compilation technique, based on the CPS transform, that yields efficient code and an extremely lightweight representation for contexts. We provide a complete proof of the correctness of our compilation scheme. We show in particular that lambda-lifting, a common compilation technique for functional languages, is also correct in an imperative language like C, under some conditions enforced by the CPC compiler. The current CPC compiler is mature enough to write substantial programs such as Hekate, a highly concurrent BitTorrent seeder. Our benchmark results show that CPC is as efficient, while significantly cheaper, as the most efficient thread libraries available.},
+	Author = {Gabriel Kerneis and Juliusz Chroboczek},
+	Date-Added = {2010-12-07 20:16:32 -0800},
+	Date-Modified = {2010-12-07 20:17:14 -0800},
+	Ee = {http://arxiv.org/abs/1011.4558},
+	Journal = {CoRR},
+	Title = {Continuation-Passing C, compiling threads to events through continuations},
+	Year = {2010},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbwAAAAAAbwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhFrZXJuZWlzMTBjb250LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA14NZySJidgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJItL2AAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBMTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTprZXJuZWlzMTBjb250LnBkZgAOACQAEQBrAGUAcgBuAGUAaQBzADEAMABjAG8AbgB0AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA/VXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2tlcm5laXMxMGNvbnQucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAZTGlicmFyeS9rZXJuZWlzMTBjb250LnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJgAmICZwJwAnsCfwKNApQCnQK5Ar4CwQLOAtMAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC5Q==},
+	Bdsk-Url-1 = {http://arxiv.org/abs/1011.4558}}
+
+@inproceedings{wadle09blame,
+	Address = {Berlin, Heidelberg},
+	Author = {Philip Wadler and Robert Bruce Findler},
+	Booktitle = {Proceedings of the 18th European Symposium on Programming Languages and Systems: Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2009},
+	Date-Added = {2010-12-07 20:14:19 -0800},
+	Date-Modified = {2010-12-07 20:15:00 -0800},
+	Pages = {1--16},
+	Publisher = {Springer-Verlag},
+	Series = {ESOP '09},
+	Title = {Well-Typed Programs Can't Be Blamed},
+	Year = {2009},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAbgAAAAAAbgAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhB3YWRsZTA5YmxhbWUucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1/VQySKnOgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJIxe6AAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBLTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTp3YWRsZTA5YmxhbWUucGRmAAAOACIAEAB3AGEAZABsAGUAMAA5AGIAbABhAG0AZQAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAPlVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS93YWRsZTA5YmxhbWUucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBhMaWJyYXJ5L3dhZGxlMDlibGFtZS5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACXAJeAmMCbAJ3AnsCiQKQApkCtAK5ArwCyQLOAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuA=},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-642-00590-9_1}}
+
+@inproceedings{siek06gradualtyping,
+	Author = {Jeremy G. Siek and Walid Taha},
+	Booktitle = {In Scheme and Functional Programming Workshop},
+	Date-Added = {2010-12-07 20:12:47 -0800},
+	Date-Modified = {2010-12-07 20:13:22 -0800},
+	Pages = {81--92},
+	Title = {Gradual Typing for Functional Languages},
+	Year = {2006},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdQAAAAAAdQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhdzaWVrMDZncmFkdWFsdHlwaW5nLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1/taySKrbQAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJIxvtAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBSTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpzaWVrMDZncmFkdWFsdHlwaW5nLnBkZgAOADAAFwBzAGkAZQBrADAANgBnAHIAYQBkAHUAYQBsAHQAeQBwAGkAbgBnAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBFVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3NpZWswNmdyYWR1YWx0eXBpbmcucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAfTGlicmFyeS9zaWVrMDZncmFkdWFsdHlwaW5nLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAJ4AnoCfwKIApMClwKlAqwCtQLXAtwC3wLsAvEAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADAw==}}
+
+@misc{meijer05static,
+	Author = {Erik Meijer and Peter Drayton},
+	Date-Added = {2010-12-07 20:10:40 -0800},
+	Date-Modified = {2010-12-07 20:11:52 -0800},
+	Title = {{Static Typing Where Possible, Dynamic Typing When Needed}},
+	Year = {2005},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcAAAAAAAcAAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhJtZWlqZXIwNXN0YXRpYy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1/U5ySKnMAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJIxewAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBNTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTptZWlqZXIwNXN0YXRpYy5wZGYAAA4AJgASAG0AZQBpAGoAZQByADAANQBzAHQAYQB0AGkAYwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAQFVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9tZWlqZXIwNXN0YXRpYy5wZGYAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QGkxpYnJhcnkvbWVpamVyMDVzdGF0aWMucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAmQCZgJrAnQCfwKDApECmAKhAr4CwwLGAtMC2AAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALq}}
+
+@techreport{lindley08thearrow,
+	Abstract = {We introduce the arrow calculus, a metalanguage for manipulating Hughes's arrows with close relations both to Moggi's metalanguage for monads and to Paterson's arrow notation. Arrows are classically defined by extending lambda calculus with three constructs satisfying nine (somewhat idiosyncratic) laws. In contrast, the arrow calculus adds four constructs satisfying five laws. Two of the constructs are arrow abstraction and application (satisfying beta and eta laws) and two correspond to unit and bind for monads (satisfying left unit, right unit, and associativity laws). The five laws were previously known to be sound; we show that they are also complete, and hence that the five laws may replace the nine. We give a translation from classic arrows into the arrow calculus to complement Paterson's desugaring and show that the two translations form an equational correspondence in the sense of Sabry and Felleisen. We are also the first to publish formal type rules (which are unusual in that they require two contexts), which greatly aided our understanding of arrows. The first fruit of our new calculus is to reveal some redundancies in the classic formulation: the nine classic arrow laws can be reduced to eight, and the three additional classic arrow laws for arrows with apply can be reduced to two. The calculus has also been used to clarify the relationship between idioms, arrows and monads and as the inspiration for a categorical semantics of arrows.},
+	Author = {Sam Lindley and Philip Wadler and Jeremy Yallop},
+	Date-Added = {2010-12-01 11:04:26 -0800},
+	Date-Modified = {2010-12-01 11:04:45 -0800},
+	Title = {The arrow calculus},
+	Year = {2008},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhVsaW5kbGV5MDh0aGVhcnJvdy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzP7XyRp9rgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJGu4uAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBQTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpsaW5kbGV5MDh0aGVhcnJvdy5wZGYADgAsABUAbABpAG4AZABsAGUAeQAwADgAdABoAGUAYQByAHIAbwB3AC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBDVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2xpbmRsZXkwOHRoZWFycm93LnBkZgAAEwABLwAAFQACAA///wAAgAXSHB0eH1gkY2xhc3Nlc1okY2xhc3NuYW1lox8gIV1OU011dGFibGVEYXRhVk5TRGF0YVhOU09iamVjdF8QHUxpYnJhcnkvbGluZGxleTA4dGhlYXJyb3cucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAnACcgJ3AoACiwKPAp0CpAKtAs0C0gLVAuIC5wAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAL5}}
 
 @incollection{reynolds80implicit,
 	Abstract = {A generalization of many-sorted algebras, called category-sorted algebras, is defined and applied to the language-design problem of avoiding anomalies in the interaction of implicit conversions and generic operators. The definition of a simple imperative language (without any binding mechanisms) is used as an example.},
@@ -25,8 +95,8 @@
 	Url = {http://dx.doi.org/10.1007/3-540-10250-7_24},
 	Volume = {94},
 	Year = {1980},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/3-540-10250-7_24},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdAAAAAAAdAAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhZyZXlub2xkczgwaW1wbGljaXQucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvNM3yQhqDgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJCNqOAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBRTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyZXlub2xkczgwaW1wbGljaXQucGRmAAAOAC4AFgByAGUAeQBuAG8AbABkAHMAOAAwAGkAbQBwAGwAaQBjAGkAdAAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARFVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9yZXlub2xkczgwaW1wbGljaXQucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEB5MaWJyYXJ5L3JleW5vbGRzODBpbXBsaWNpdC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACdAJ2AnsChAKPApMCoQKoArEC0gLXAtoC5wLsAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAv4=}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAdAAAAAAAdAAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhZyZXlub2xkczgwaW1wbGljaXQucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvNM3yQhqDgAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJCNqOAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBRTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpyZXlub2xkczgwaW1wbGljaXQucGRmAAAOAC4AFgByAGUAeQBuAG8AbABkAHMAOAAwAGkAbQBwAGwAaQBjAGkAdAAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIARFVzZXJzL2dodWxldHRlL0RvY3VtZW50cy9CaWJsaW9ncmFwaHkvTGlicmFyeS9yZXlub2xkczgwaW1wbGljaXQucGRmABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEB5MaWJyYXJ5L3JleW5vbGRzODBpbXBsaWNpdC5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACdAJ2AnsChAKPApMCoQKoArEC0gLXAtoC5wLsAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAv4=},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/3-540-10250-7_24}}
 
 @incollection{tennent85functorsemantics,
 	Abstract = {A category-theoretic technique for denotational-semantic description of programming languages has recently been developed by J.C. Reynolds and F.J. Oles. The first application was an abstractdescription of stack-oriented storage management in Algol 60-like programming languages. A more recent application has been to obtain a model of Reynolds's specification logic that is non-operational and validates certain intuitively-true axioms; this application required ideas from topos theory. This paper is an introduction to the Reynolds-Oles technique and its applications. A novel feature of the presentation is the systematic use in functor categories of analogues to conventional domain constructions.
@@ -45,8 +115,8 @@ In designing a programming language, the central problem is to organize a variet
 	Url = {http://dx.doi.org/10.1007/3-540-17162-2_124},
 	Volume = {240},
 	Year = {1986},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/3-540-17162-2_124},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAewAAAAAAewAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHh10ZW5uZW50ODVmdW5jdG9yc2VtYW50aWNzLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvNC9yQhpEwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJCNmTAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBYTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTp0ZW5uZW50ODVmdW5jdG9yc2VtYW50aWNzLnBkZgAOADwAHQB0AGUAbgBuAGUAbgB0ADgANQBmAHUAbgBjAHQAbwByAHMAZQBtAGEAbgB0AGkAYwBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBLVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3Rlbm5lbnQ4NWZ1bmN0b3JzZW1hbnRpY3MucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAlTGlicmFyeS90ZW5uZW50ODVmdW5jdG9yc2VtYW50aWNzLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAKQApIClwKgAqsCrwK9AsQCzQL1AvoC/QMKAw8AAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADIQ==}}
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAewAAAAAAewAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHh10ZW5uZW50ODVmdW5jdG9yc2VtYW50aWNzLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvNC9yQhpEwAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADJCNmTAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBYTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTp0ZW5uZW50ODVmdW5jdG9yc2VtYW50aWNzLnBkZgAOADwAHQB0AGUAbgBuAGUAbgB0ADgANQBmAHUAbgBjAHQAbwByAHMAZQBtAGEAbgB0AGkAYwBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBLVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L3Rlbm5lbnQ4NWZ1bmN0b3JzZW1hbnRpY3MucGRmAAATAAEvAAAVAAIAD///AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxAlTGlicmFyeS90ZW5uZW50ODVmdW5jdG9yc2VtYW50aWNzLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAKQApIClwKgAqsCrwK9AsQCzQL1AvoC/QMKAw8AAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADIQ==},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/3-540-17162-2_124}}
 
 @article{cardelli85types,
 	Abstract = {Our objective is to understand the notion of type in programming languages, present a model of typed, polymorphic programming languages that reflects recent research in type theory, and examine the relevance of recent research to the design of practical programming languages. Object-oriented languages provide both a framework and a motivation for exploring the interaction among the concepts of type, data abstraction, and polymorphism, since they extend the notion of type to data abstraction and since type inheritance is an important form of polymorphism. We develop a &lgr;-calculus-based model for type systems that allows us to explore these interactions in a simple setting, unencumbered by complexities of production programming languages. The evolution of languages from untyped universes to monomorphic and then polymorphic type systems is reviewed. Mechanisms for polymorphism such as overloading, coercion, subtyping, and parameterization are examined. A unifying framework for polymorphic type systems is developed in terms of the typed &lgr;-calculus augmented to include binding of types by quantification as well as binding of values by abstraction. The typed &lgr;-calculus is augmented by universal quantification to model generic functions with type parameters, existential quantification and packaging (information hiding) to model abstract data types, and bounded quantification to model subtypes and type inheritance. In this way we obtain a simple and precise characterization of a powerful type system that includes abstract data types, parametric polymorphism, and multiple inheritance in a single consistent framework. The mechanisms for type checking for the augmented &lgr;-calculus are discussed. The augmented typed &lgr;-calculus is used as a programming language for a variety of illustrative examples. We christen this language Fun because fun instead of &lgr; is the functional abstraction keyword and because it is pleasant to deal with. Fun is mathematically simple and can serve as a basis for the design and implementation of real programming languages with type facilities that are more powerful and expressive than those of existing programming languages. In particular, it provides a basis for the design of strongly typed object-oriented languages.},
@@ -249,11 +319,10 @@ Our system is very simple, but can be effective in optimizing real programs. We 
 @unpublished{lammel02essence,
 	Author = {Ralf L{\"a}mmel and Eelco Visser and Joost Visser},
 	Date-Added = {2010-09-20 15:10:51 -0700},
-	Date-Modified = {2010-09-20 15:11:05 -0700},
-	Month = oct # 15,
-	Note = {18 p.; Draft; Available at \url{http://www.cwi.nl/~ralf}},
+	Date-Modified = {2010-12-08 14:58:14 -0800},
+	Month = {October},
 	Title = {{The Essence of Strategic Programming}},
-	Year = 2002,
+	Year = {2002},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAcQAAAAAAcQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMgGU6tIKwAAAA0kHhNsYW1tZWwwMmVzc2VuY2UucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaikayL0poAAAAAAAAAAAAAEAAwAACSAAAAAAAAAAAAAAAAAAAAAHTGlicmFyeQAAEAAIAADIBrYbAAAAEQAIAADIvYwQAAAAAQAUAA0kHgANInEACEnqAAhJ3QAAkj8AAgBOTWFjaW50b3NoIEhEOlVzZXJzOmdodWxldHRlOkRvY3VtZW50czpCaWJsaW9ncmFwaHk6TGlicmFyeTpsYW1tZWwwMmVzc2VuY2UucGRmAA4AKAATAGwAYQBtAG0AZQBsADAAMgBlAHMAcwBlAG4AYwBlAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBBVXNlcnMvZ2h1bGV0dGUvRG9jdW1lbnRzL0JpYmxpb2dyYXBoeS9MaWJyYXJ5L2xhbW1lbDAyZXNzZW5jZS5wZGYAABMAAS8AABUAAgAP//8AAIAF0hwdHh9YJGNsYXNzZXNaJGNsYXNzbmFtZaMfICFdTlNNdXRhYmxlRGF0YVZOU0RhdGFYTlNPYmplY3RfEBtMaWJyYXJ5L2xhbW1lbDAyZXNzZW5jZS5wZGbSHB0kJaIlIVxOU0RpY3Rpb25hcnkSAAGGoF8QD05TS2V5ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABFAEsAUgBdAGUAbABvAHEAcwB2AHgAegB8AIYAkwCYAKACaAJqAm8CeAKDAocClQKcAqUCwwLIAssC2ALdAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAu8=}}
 
 @inproceedings{lammel03scrap,
